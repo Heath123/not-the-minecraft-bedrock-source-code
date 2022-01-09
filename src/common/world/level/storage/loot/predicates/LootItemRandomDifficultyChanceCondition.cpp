@@ -1,0 +1,3 @@
+LootItemRandomDifficultyChanceCondition::LootItemRandomDifficultyChanceCondition(Json::Value)
+LootItemRandomDifficultyChanceCondition::applies(Random&, LootTableContext&)
+LootItemRandomDifficultyChanceCondition::deserialize(Json::Value)

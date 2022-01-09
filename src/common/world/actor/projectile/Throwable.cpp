@@ -1,0 +1,16 @@
+Throwable::Throwable(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Throwable::initializeComponents(Actor::InitializationMethod, VariantParameterList const&)
+Throwable::getThrowPower()
+Throwable::getThrowUpAngleOffset()
+Throwable::getGravity()
+Throwable::getParticleType()
+Throwable::canMakeStepSound() const
+Throwable::shoot(Mob&)
+Throwable::shoot(Vec3 const&, float, float, Vec3 const&)
+Throwable::lerpMotion(Vec3 const&)
+Throwable::lerpTo(Vec3 const&, Vec2 const&, int)
+Throwable::normalTick()
+Throwable::getShadowHeightOffs()
+Throwable::addAdditionalSaveData(CompoundTag&)
+Throwable::readAdditionalSaveData(CompoundTag const&, DataLoadHelper&)
+Throwable::getSourceUniqueID() const

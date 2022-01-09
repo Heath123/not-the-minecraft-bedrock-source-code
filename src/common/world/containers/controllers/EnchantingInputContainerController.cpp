@@ -1,0 +1,9 @@
+EnchantingInputContainerController::EnchantingInputContainerController(std::shared_ptr<ContainerModel>)
+EnchantingInputContainerController::~EnchantingInputContainerController()
+EnchantingInputContainerController::~EnchantingInputContainerController()
+EnchantingInputContainerController::isItemAllowed(ItemInstance const&) const
+EnchantingInputContainerController::isItemFiltered(Recipes const&, ContainerItemStack const&) const
+EnchantingInputContainerController::isEnchantingInputItem(ItemDescriptor const&)
+EnchantingInputContainerController::_canSet(int, ContainerItemStack const&, ItemTransferAmount) const
+EnchantingInputContainerController::_getAvailableAddCount(int) const
+EnchantingInputContainerController::_getAvailableSetCount(int, ContainerItemStack const&) const

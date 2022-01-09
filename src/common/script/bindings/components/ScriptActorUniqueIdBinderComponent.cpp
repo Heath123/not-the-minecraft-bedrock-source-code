@@ -1,0 +1,9 @@
+ScriptActorUniqueIdBinderComponent::ScriptActorUniqueIdBinderComponent()
+ScriptActorUniqueIdBinderComponent::ScriptActorUniqueIdBinderComponent(ActorUniqueID)
+ScriptActorUniqueIdBinderComponent::ScriptActorUniqueIdBinderComponent(Actor const&)
+ScriptActorUniqueIdBinderComponent::ScriptActorUniqueIdBinderComponent(ItemActor const&)
+ScriptActorUniqueIdBinderComponent::~ScriptActorUniqueIdBinderComponent()
+ScriptActorUniqueIdBinderComponent::~ScriptActorUniqueIdBinderComponent()
+ScriptActorUniqueIdBinderComponent::serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle const&) const
+ScriptActorUniqueIdBinderComponent::deserialize(ScriptEngine&, ScriptApi::ScriptObjectHandle const&)
+ScriptActorUniqueIdBinderComponent::getIdentifier() const

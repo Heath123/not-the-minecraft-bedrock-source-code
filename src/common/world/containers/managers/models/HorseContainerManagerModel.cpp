@@ -1,0 +1,10 @@
+HorseContainerManagerModel::HorseContainerManagerModel(ContainerID, Player&, ActorUniqueID const&)
+HorseContainerManagerModel::~HorseContainerManagerModel()
+HorseContainerManagerModel::~HorseContainerManagerModel()
+HorseContainerManagerModel::init()
+HorseContainerManagerModel::getEntity() const
+HorseContainerManagerModel::setSlot(int, ContainerItemStack const&, bool)
+HorseContainerManagerModel::getSlot(int)
+HorseContainerManagerModel::getItems()
+HorseContainerManagerModel::_onEquipSlotChanged(int, ItemStack const&, ItemStack const&)
+HorseContainerManagerModel::_onChestSlotChanged(int, ItemStack const&, ItemStack const&)

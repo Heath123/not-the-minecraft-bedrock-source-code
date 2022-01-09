@@ -1,0 +1,8 @@
+ScriptServerActorStopRidingEvent::ScriptServerActorStopRidingEvent()
+ScriptServerActorStopRidingEvent::~ScriptServerActorStopRidingEvent()
+ScriptServerActorStopRidingEvent::~ScriptServerActorStopRidingEvent()
+ScriptServerActorStopRidingEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorStopRidingEvent::setExitFromRider(bool)
+ScriptServerActorStopRidingEvent::setEntityIsBeingDestroyed(bool)
+ScriptServerActorStopRidingEvent::setSwitchingRides(bool)
+ScriptServerActorStopRidingEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

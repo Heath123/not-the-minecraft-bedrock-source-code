@@ -1,0 +1,2 @@
+ExhaustionAttributeDelegate::ExhaustionAttributeDelegate(AttributeInstance const&)
+ExhaustionAttributeDelegate::tick()

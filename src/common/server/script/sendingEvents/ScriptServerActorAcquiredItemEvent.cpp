@@ -1,0 +1,9 @@
+ScriptServerActorAcquiredItemEvent::ScriptServerActorAcquiredItemEvent()
+ScriptServerActorAcquiredItemEvent::~ScriptServerActorAcquiredItemEvent()
+ScriptServerActorAcquiredItemEvent::~ScriptServerActorAcquiredItemEvent()
+ScriptServerActorAcquiredItemEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorAcquiredItemEvent::setItemStack(ItemInstance const&)
+ScriptServerActorAcquiredItemEvent::setAcquiredAmount(unsigned int)
+ScriptServerActorAcquiredItemEvent::setAcquisitionMethod(ItemAcquisitionMethod)
+ScriptServerActorAcquiredItemEvent::setSecondaryActorId(ActorUniqueID const&)
+ScriptServerActorAcquiredItemEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

@@ -1,0 +1,6 @@
+BlockSerializationUtils::findInCache(BlockSerializationUtils::NbtToBlockCache&, unsigned long)
+BlockSerializationUtils::addToCache(BlockSerializationUtils::NbtToBlockCache&, unsigned long, Block const*)
+BlockSerializationUtils::clearCache(BlockSerializationUtils::NbtToBlockCache&)
+BlockSerializationUtils::tryGetBlockFromNBT(CompoundTag const&, BlockSerializationUtils::NbtToBlockCache*)
+BlockSerializationUtils::formatBlockJson(Block const&)
+BlockSerializationUtils::clearNBTToBlockCache()

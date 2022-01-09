@@ -1,0 +1,6 @@
+VillageFeature::VillageFeature(unsigned int)
+VillageFeature::getNearestGeneratedFeature(Dimension&, BiomeSource&, BlockPos const&, BlockPos&)
+VillageFeature::isFeatureChunk(BiomeSource const&, Random&, ChunkPos const&, unsigned int)
+VillageFeature::createStructureStart(Dimension&, BiomeSource&, Random&, ChunkPos const&)
+VillageStart::VillageStart(Dimension&, BiomeSource&, Random&, int, int)
+VillageStart::postProcess(BlockSource*, Random&, BoundingBox const&)

@@ -1,0 +1,8 @@
+ZombieVillager::ZombieVillager(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+ZombieVillager::addAdditionalSaveData(CompoundTag&)
+ZombieVillager::readAdditionalSaveData(CompoundTag const&, DataLoadHelper&)
+ZombieVillager::setSpawnedFromVillage()
+ZombieVillager::handleEntityEvent(ActorEvent, int)
+ZombieVillager::setProfession(Profession)
+ZombieVillager::getProfession()
+ZombieVillager::reloadHardcoded(Actor::InitializationMethod, VariantParameterList const&)

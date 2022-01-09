@@ -1,0 +1,8 @@
+EndCityFeature::EndCityFeature(TheEndGenerator&, unsigned int&)
+EndCityFeature::getNearestGeneratedFeature(Dimension&, BiomeSource&, BlockPos const&, BlockPos&)
+EndCityFeature::isFeatureChunk(BiomeSource const&, Random&, ChunkPos const&, unsigned int)
+EndCityStart::getYPositionForFeature(ChunkPos const&, Dimension&, TheEndGenerator&)
+EndCityFeature::createStructureStart(Dimension&, BiomeSource&, Random&, ChunkPos const&)
+EndCityStart::EndCityStart()
+EndCityStart::EndCityStart(Dimension&, TheEndGenerator&, Random&, ChunkPos const&)
+EndCityStart::_create(Dimension&, TheEndGenerator&, Random&, ChunkPos const&)

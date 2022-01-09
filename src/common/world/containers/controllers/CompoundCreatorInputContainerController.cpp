@@ -1,0 +1,4 @@
+CompoundCreatorInputContainerController::CompoundCreatorInputContainerController(std::shared_ptr<ContainerModel>)
+CompoundCreatorInputContainerController::~CompoundCreatorInputContainerController()
+CompoundCreatorInputContainerController::~CompoundCreatorInputContainerController()
+CompoundCreatorInputContainerController::isItemAllowed(ItemInstance const&) const

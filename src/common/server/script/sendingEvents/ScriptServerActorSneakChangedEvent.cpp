@@ -1,0 +1,6 @@
+ScriptServerActorSneakChangedEvent::ScriptServerActorSneakChangedEvent()
+ScriptServerActorSneakChangedEvent::~ScriptServerActorSneakChangedEvent()
+ScriptServerActorSneakChangedEvent::~ScriptServerActorSneakChangedEvent()
+ScriptServerActorSneakChangedEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorSneakChangedEvent::setIsSneaking(bool)
+ScriptServerActorSneakChangedEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

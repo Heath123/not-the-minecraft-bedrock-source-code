@@ -1,0 +1,7 @@
+ScriptServerActorCarriedItemChangedEvent::ScriptServerActorCarriedItemChangedEvent()
+ScriptServerActorCarriedItemChangedEvent::~ScriptServerActorCarriedItemChangedEvent()
+ScriptServerActorCarriedItemChangedEvent::~ScriptServerActorCarriedItemChangedEvent()
+ScriptServerActorCarriedItemChangedEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorCarriedItemChangedEvent::setItems(ItemInstance const&, ItemInstance const&)
+ScriptServerActorCarriedItemChangedEvent::setHand(HandSlot)
+ScriptServerActorCarriedItemChangedEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

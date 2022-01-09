@@ -1,0 +1,7 @@
+SnapshotWritableFile::SnapshotWritableFile(leveldb::WritableFile*&&, std::shared_timed_mutex&)
+SnapshotWritableFile::~SnapshotWritableFile()
+SnapshotWritableFile::~SnapshotWritableFile()
+SnapshotWritableFile::Append(leveldb::Slice const&)
+SnapshotWritableFile::Close()
+SnapshotWritableFile::Flush()
+SnapshotWritableFile::Sync()

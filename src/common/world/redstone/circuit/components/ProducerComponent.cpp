@@ -1,0 +1,5 @@
+ProducerComponent::ProducerComponent()
+ProducerComponent::allowAttachments(bool)
+ProducerComponent::allowConnection(CircuitSceneGraph&, CircuitTrackingInfo const&, bool&)
+ProducerComponent::evaluate(CircuitSystem&, BlockPos const&)
+ProducerComponent::setStrength(int)

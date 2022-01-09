@@ -1,0 +1,1 @@
+SurfaceBuilderRegistry::lookupForEntity(EntityContext&) const

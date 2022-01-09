@@ -1,0 +1,5 @@
+StructureStart::postProcess(BlockSource*, Random&, BoundingBox const&)
+StructureStart::postProcessMobsAt(BlockSource*, Random&, BoundingBox const&)
+StructureStart::calculateBoundingBox()
+StructureStart::moveToLevel(Random&, int)
+StructureStart::moveInsideHeights(Random*, int, int)

@@ -1,0 +1,7 @@
+ScriptBinderActorTickingAreaTemplate::build(ITickingArea const&)
+ScriptBinderActorTickingAreaTemplate::build(ActorUniqueID const&)
+ScriptBinderActorTickingAreaTemplate::ScriptBinderActorTickingAreaTemplate()
+ScriptBinderActorTickingAreaTemplate::~ScriptBinderActorTickingAreaTemplate()
+ScriptBinderActorTickingAreaTemplate::~ScriptBinderActorTickingAreaTemplate()
+ScriptBinderActorTickingAreaTemplate::getTemplateIdentifier[abi:cxx11]() const
+ScriptBinderActorTickingAreaTemplate::applyTemplate(ScriptObjectBinder&) const

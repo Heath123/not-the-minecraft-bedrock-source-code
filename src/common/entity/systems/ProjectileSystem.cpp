@@ -1,0 +1,1 @@
+ProjectileSystem::tick(EntityRegistry&)

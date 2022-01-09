@@ -1,0 +1,5 @@
+GenericMoveControl::GenericMoveControl()
+GenericMoveControl::~GenericMoveControl()
+GenericMoveControl::~GenericMoveControl()
+GenericMoveControl::initializeInternal(Mob&, MoveControlDescription*)
+GenericMoveControl::tick(MoveControlComponent&, Mob&)

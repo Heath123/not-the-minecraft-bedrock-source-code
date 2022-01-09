@@ -1,0 +1,1 @@
+HurtOnConditionSystem::tick(EntityRegistry&)

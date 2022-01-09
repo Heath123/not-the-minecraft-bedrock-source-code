@@ -1,0 +1,8 @@
+RecipeIngredient::RecipeIngredient()
+RecipeIngredient::RecipeIngredient(ItemDescriptor const&, unsigned short)
+RecipeIngredient::RecipeIngredient(Block const&, unsigned short)
+RecipeIngredient::RecipeIngredient(BlockLegacy const&, unsigned short)
+RecipeIngredient::RecipeIngredient(Item const&, int, unsigned short)
+serialize<RecipeIngredient>::write(RecipeIngredient const&, BinaryStream&)
+serialize<RecipeIngredient>::read(ReadOnlyBinaryStream&)
+toItemInstance(RecipeIngredient const&)

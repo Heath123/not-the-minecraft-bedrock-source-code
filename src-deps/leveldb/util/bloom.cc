@@ -1,0 +1,1 @@
+leveldb::NewBloomFilterPolicy(int)

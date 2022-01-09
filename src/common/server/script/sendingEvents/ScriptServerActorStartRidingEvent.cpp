@@ -1,0 +1,6 @@
+ScriptServerActorStartRidingEvent::ScriptServerActorStartRidingEvent()
+ScriptServerActorStartRidingEvent::~ScriptServerActorStartRidingEvent()
+ScriptServerActorStartRidingEvent::~ScriptServerActorStartRidingEvent()
+ScriptServerActorStartRidingEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorStartRidingEvent::setRideEntityId(ActorUniqueID const&)
+ScriptServerActorStartRidingEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

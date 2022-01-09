@@ -1,0 +1,8 @@
+Bee::Bee(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Bee::~Bee()
+Bee::~Bee()
+Bee::normalTick()
+Bee::_registerLoopingSounds()
+Bee::reloadHardcodedClient(Actor::InitializationMethod, VariantParameterList const&)
+Bee::getAmbientSoundPostponeTicks()
+Bee::onSynchedDataUpdate(int)

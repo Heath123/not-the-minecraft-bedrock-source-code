@@ -1,0 +1,5 @@
+BlockEventDispatcher::registerListener(Vec3 const&, float, std::function<void (Block const&)>)
+BlockEventDispatcher::dispatchEvent(BlockPos const&, Block const&, Block const&)
+BlockEventDispatcher::removeListener(int)
+BlockEventDispatcher::updatePosition(int, Vec3 const&)
+BlockEventDispatcher::updateRadius(int, float)

@@ -1,0 +1,10 @@
+FullPlayerInventoryWrapper::FullPlayerInventoryWrapper(PlayerInventoryProxy&, SimpleContainer&, SimpleContainer&, InventoryTransactionManager*, Player*)
+FullPlayerInventoryWrapper::clearAllItems()
+FullPlayerInventoryWrapper::_removeCursorItem()
+FullPlayerInventoryWrapper::_clearSimpleContainerItem(SimpleContainer&, ContainerID, int)
+FullPlayerInventoryWrapper::getItemCount(ItemDescriptor const&)
+FullPlayerInventoryWrapper::_getSimpleContainerItemCount(SimpleContainer&, int, ItemDescriptor const&)
+FullPlayerInventoryWrapper::removeResource(ItemStack const&, bool, int)
+FullPlayerInventoryWrapper::_removeCursorItem(ItemStack const&, bool, int)
+FullPlayerInventoryWrapper::_removeSimpleContainerItem(SimpleContainer&, ContainerID, int, ItemStack const&, bool, int)
+FullPlayerInventoryWrapper::_sendCursorSlotPacket() const

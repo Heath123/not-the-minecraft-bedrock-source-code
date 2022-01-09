@@ -1,0 +1,6 @@
+ScriptServerBlockDestructionStartedEvent::ScriptServerBlockDestructionStartedEvent()
+ScriptServerBlockDestructionStartedEvent::~ScriptServerBlockDestructionStartedEvent()
+ScriptServerBlockDestructionStartedEvent::~ScriptServerBlockDestructionStartedEvent()
+ScriptServerBlockDestructionStartedEvent::setActorId(ActorUniqueID const&)
+ScriptServerBlockDestructionStartedEvent::setBlockPos(BlockPos const&)
+ScriptServerBlockDestructionStartedEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

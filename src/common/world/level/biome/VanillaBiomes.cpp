@@ -1,0 +1,8 @@
+VanillaBiomes::initBiomes(BiomeRegistry&)
+VanillaBiomes::initBiomeComponents(BiomeComponentFactory&)
+VanillaBiomes::initSurfaceBuilders(SurfaceBuilderRegistry&)
+VanillaBiomes::initDefaultWorldGenComponents(IWorldRegistriesProvider&)
+VanillaBiomes::initClientOnlyComponents(BiomeRegistry&)
+VanillaBiomes::initVanillaBiomeTypeComponent(BiomeRegistry&)
+VanillaBiomes::shutdownBiomes()
+VanillaBiomes::isValidSpawn(int)

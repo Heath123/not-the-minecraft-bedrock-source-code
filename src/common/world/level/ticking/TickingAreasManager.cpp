@@ -1,0 +1,15 @@
+TickingAreasManager::TickingAreasManager(std::unordered_map<AutomaticID<Dimension, int>, std::unique_ptr<Dimension, std::default_delete<Dimension> >, std::hash<AutomaticID<Dimension, int> >, std::equal_to<AutomaticID<Dimension, int> >, std::allocator<std::pair<AutomaticID<Dimension, int> const, std::unique_ptr<Dimension, std::default_delete<Dimension> > > > >&)
+TickingAreasManager::update(Level&)
+TickingAreasManager::_processRemoves()
+TickingAreasManager::_processAdds(Level&)
+TickingAreasManager::_processUpdates()
+TickingAreasManager::tick(Tick const&)
+TickingAreasManager::addArea(Dimension&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, BlockPos const&, int)
+TickingAreasManager::_addArea(Dimension&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Bounds const&, bool)
+TickingAreasManager::addArea(Dimension&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, BlockPos const&, BlockPos const&)
+TickingAreasManager::addEntityArea(Dimension&, Actor const&)
+TickingAreasManager::_requeueEntityArea(Dimension&, ActorUniqueID const&, Bounds const&, bool, float)
+TickingAreasManager::_savePendingArea(LevelStorage&, AutomaticID<Dimension, int>, PendingArea const&)
+TickingAreasManager::countStandaloneTickingAreas() const
+TickingAreasManager::hasActiveAreas() const
+TickingAreasManager::loadArea(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::unique_ptr<CompoundTag, std::default_delete<CompoundTag> >)

@@ -1,0 +1,1 @@
+RailActivatorSystem::tick(EntityRegistry&)

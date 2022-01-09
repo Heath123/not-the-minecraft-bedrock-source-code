@@ -1,0 +1,6 @@
+Core::BufferedFileOperations::copyFile(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::BufferedFileOperations::copyFileWithLimit(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&, unsigned long, unsigned long&, unsigned long&)
+Core::BufferedFileOperations::moveFile(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::BufferedFileOperations::copyDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::BufferedFileOperations::moveDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::BufferedFileOperations::moveFileOrDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)

@@ -1,0 +1,15 @@
+RepeaterCapacitor::RepeaterCapacitor()
+RepeaterCapacitor::getPoweroutDirection() const
+RepeaterCapacitor::allowConnection(CircuitSceneGraph&, CircuitTrackingInfo const&, bool&)
+RepeaterCapacitor::addSource(CircuitSceneGraph&, CircuitTrackingInfo const&, int&, bool&)
+RepeaterCapacitor::setStrength(int)
+RepeaterCapacitor::getStrength() const
+RepeaterCapacitor::setDelay(int)
+RepeaterCapacitor::evaluate(CircuitSystem&, BlockPos const&)
+RepeaterCapacitor::delayPulse(RepeaterCapacitor::States)
+RepeaterCapacitor::alternatePulse()
+RepeaterCapacitor::extendPulse()
+RepeaterCapacitor::checkLock(CircuitSystem&, BlockPos const&)
+RepeaterCapacitor::cacheValues(CircuitSystem&, BlockPos const&)
+RepeaterCapacitor::removeSource(BlockPos const&, BaseCircuitComponent const*)
+RepeaterCapacitor::updateDependencies(CircuitSceneGraph&, BlockPos const&)

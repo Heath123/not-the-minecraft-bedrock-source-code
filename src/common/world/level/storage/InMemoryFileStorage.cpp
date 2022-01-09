@@ -1,0 +1,7 @@
+InMemoryFileStorage::InMemoryFileStorage(leveldb::Env*)
+InMemoryFileStorage::~InMemoryFileStorage()
+InMemoryFileStorage::createFile(Core::Path const&)
+InMemoryFileStorage::findFile(Core::Path const&, std::shared_ptr<InMemoryFile>&)
+InMemoryFileStorage::deleteFile(Core::Path const&)
+InMemoryFileStorage::flushToDisk()
+InMemoryFileStorage::populateFileList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)

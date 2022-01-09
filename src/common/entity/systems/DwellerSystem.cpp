@@ -1,0 +1,1 @@
+DwellerSystem::tick(EntityRegistry&)

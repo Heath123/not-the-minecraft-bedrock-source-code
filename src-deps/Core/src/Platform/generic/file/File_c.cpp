@@ -1,0 +1,18 @@
+Core::File_c::File_c(_IO_FILE*, Core::FileSystemImpl*, Core::Path const&, Core::FileOpenMode)
+Core::File_c::~File_c()
+Core::File_c::~File_c()
+Core::File_c::_getPath[abi:cxx11]() const
+Core::File_c::_getBlockSize() const
+Core::File_c::_isOpen()
+Core::File_c::_close()
+Core::File_c::_read(void*, unsigned long, unsigned long*)
+Core::File_c::_readExactly(void*, unsigned long)
+Core::File_c::_readAtPosition(unsigned long, void*, unsigned long, unsigned long*)
+Core::File_c::_write(void const*, unsigned long)
+Core::File_c::_setPosition(unsigned long)
+Core::File_c::_getPosition(unsigned long*)
+Core::File_c::_skip(unsigned long)
+Core::File_c::_flush()
+Core::File_c::_getSize(unsigned long*)
+Core::File_c::_open(std::unique_ptr<Core::File_c, std::default_delete<Core::File_c> >&, Core::FileSystemImpl*, Core::Path const&, Core::FileOpenMode, Core::FileBufferingMode)
+Core::File_c::_getRemainingSize(unsigned long*)

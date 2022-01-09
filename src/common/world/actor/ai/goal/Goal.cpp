@@ -1,0 +1,11 @@
+Goal::Goal()
+Goal::~Goal()
+Goal::~Goal()
+Goal::canContinueToUse()
+Goal::canBeInterrupted()
+Goal::start()
+Goal::stop()
+Goal::tick()
+Goal::onPlayerDimensionChanged(Player*, AutomaticID<Dimension, int>)
+Goal::setRequiredControlFlags(int)
+Goal::getRequiredControlFlags() const

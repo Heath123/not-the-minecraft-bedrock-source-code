@@ -1,0 +1,6 @@
+GoalSelectorUtility::canCoExist(PrioritizedGoal&, PrioritizedGoal&)
+GoalSelectorUtility::canUseInSystem(PrioritizedGoal&, std::vector<PrioritizedGoal, std::allocator<PrioritizedGoal> >&)
+GoalSelectorUtility::tryStartGoals(std::vector<PrioritizedGoal, std::allocator<PrioritizedGoal> >&)
+GoalSelectorSystem::tick(EntityRegistry&)
+GoalSelectorSystem::_tickGoalSelectorComponent(ViewedEntityContextT<EntityContext, FlagComponent<ActorTickedFlag>, ActorComponent, GoalSelectorComponent>&)
+GoalSelectorSystem::_tickGoal(std::vector<PrioritizedGoal, std::allocator<PrioritizedGoal> >&)

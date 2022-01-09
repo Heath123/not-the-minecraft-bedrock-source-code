@@ -1,0 +1,8 @@
+GameSession::GameSession(NetworkHandler&, std::unique_ptr<ServerNetworkHandler, std::default_delete<ServerNetworkHandler> >, LoopbackPacketSender&, std::unique_ptr<NetEventCallback, std::default_delete<NetEventCallback> >, std::unique_ptr<Level, std::default_delete<Level> >, unsigned char)
+GameSession::setLevel(std::unique_ptr<Level, std::default_delete<Level> >)
+GameSession::GameSession(NetworkHandler&, std::unique_ptr<NetEventCallback, std::default_delete<NetEventCallback> >, LoopbackPacketSender&, unsigned char)
+GameSession::~GameSession()
+GameSession::tick()
+GameSession::startLeaveGame()
+GameSession::isLeaveGameDone()
+GameSession::getNetEventCallback()

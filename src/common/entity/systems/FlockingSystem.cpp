@@ -1,0 +1,1 @@
+FlockingSystem::tick(EntityRegistry&)

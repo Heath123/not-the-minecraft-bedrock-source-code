@@ -1,0 +1,10 @@
+MinecartTNT::MinecartTNT(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+MinecartTNT::normalTick()
+MinecartTNT::_hurt(ActorDamageSource const&, int, bool, bool)
+MinecartTNT::primeFuse(ActorDamageCause)
+MinecartTNT::destroy(ActorDamageSource const&, bool)
+MinecartTNT::handleEntityEvent(ActorEvent, int)
+MinecartTNT::getFuse()
+MinecartTNT::getType()
+MinecartTNT::getDefaultDisplayBlock() const
+MinecartTNT::causeFallDamage(float)

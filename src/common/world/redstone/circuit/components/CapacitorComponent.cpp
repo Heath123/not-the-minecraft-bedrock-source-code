@@ -1,0 +1,1 @@
+CapacitorComponent::CapacitorComponent()

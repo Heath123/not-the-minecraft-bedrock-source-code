@@ -1,0 +1,11 @@
+MountPathingGoal::_init(float, float, bool)
+MountPathingGoal::MountPathingGoal(Mob&, float, float, bool)
+MountPathingGoal::~MountPathingGoal()
+MountPathingGoal::~MountPathingGoal()
+MountPathingGoal::canUse()
+MountPathingGoal::canContinueToUse()
+MountPathingGoal::start()
+MountPathingGoal::stop()
+MountPathingGoal::tick()
+MountPathingGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const
+MountPathingGoal::_getAttackReachSqr()

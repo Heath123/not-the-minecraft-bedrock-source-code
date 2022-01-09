@@ -1,0 +1,11 @@
+NetworkChunkPublisher::NetworkChunkPublisher(Level&, NetworkHandler&, ClientBlobCache::Server::ActiveTransfersManager&, NetworkIdentifier const&, unsigned char)
+NetworkChunkPublisher::~NetworkChunkPublisher()
+NetworkChunkPublisher::~NetworkChunkPublisher()
+NetworkChunkPublisher::prepareRegion(ChunkSource&, ChunkPos&)
+NetworkChunkPublisher::destroyRegion()
+NetworkChunkPublisher::clearRegion()
+NetworkChunkPublisher::moveRegion(BlockPos const&, unsigned int, float)
+NetworkChunkPublisher::getChunksSentSinceStart() const
+NetworkChunkPublisher::sendQueuedChunks()
+NetworkChunkPublisher::_sendQueuedChunk(ChunkPos const&, ClientBlobCache::Server::TransferBuilder*)
+NetworkChunkPublisher::_serializeAndCache(LevelChunkPacket&, ClientBlobCache::Server::TransferBuilder&, std::function<void (BinaryDataOutput&)>&&)

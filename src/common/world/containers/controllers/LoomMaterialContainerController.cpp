@@ -1,0 +1,4 @@
+LoomMaterialContainerController::LoomMaterialContainerController(std::shared_ptr<ContainerModel>)
+LoomMaterialContainerController::~LoomMaterialContainerController()
+LoomMaterialContainerController::~LoomMaterialContainerController()
+LoomMaterialContainerController::isItemAllowed(ItemInstance const&) const

@@ -1,0 +1,1 @@
+AppConfigsFactory::createAppConfigs()

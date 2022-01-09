@@ -1,0 +1,5 @@
+BrewingStandFuelContainerController::BrewingStandFuelContainerController(std::shared_ptr<ContainerModel>)
+BrewingStandFuelContainerController::~BrewingStandFuelContainerController()
+BrewingStandFuelContainerController::~BrewingStandFuelContainerController()
+BrewingStandFuelContainerController::isItemAllowed(ItemInstance const&) const
+BrewingStandFuelContainerController::isBrewingStandFuelItem(ItemDescriptor const&)

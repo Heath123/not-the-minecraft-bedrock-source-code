@@ -1,0 +1,7 @@
+SaveTransactionManager::SaveTransactionManager(std::function<void (bool)>)
+SaveTransactionManager::~SaveTransactionManager()
+SaveTransactionManager::deleteShowIconFunction()
+SaveTransactionManager::onBeginCompaction()
+SaveTransactionManager::_showGlobalSaveIcon()
+SaveTransactionManager::onEndCompaction()
+SaveTransactionManager::_hideGlobalSaveIcon()

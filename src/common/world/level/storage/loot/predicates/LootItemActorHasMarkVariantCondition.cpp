@@ -1,0 +1,3 @@
+LootItemActorHasMarkVariantCondition::LootItemActorHasMarkVariantCondition(int)
+LootItemActorHasMarkVariantCondition::applies(Random&, LootTableContext&)
+LootItemActorHasMarkVariantCondition::deserialize(Json::Value)

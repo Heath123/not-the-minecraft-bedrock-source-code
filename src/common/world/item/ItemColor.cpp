@@ -1,0 +1,5 @@
+ItemColorUtil::fromInt(int)
+ItemColorUtil::fromBlockColor(BlockColor)
+ItemColorUtil::getName[abi:cxx11](ItemColor)
+ItemColorUtil::getNameMixedCase[abi:cxx11](ItemColor)
+ItemColorUtil::getRGBColor(ItemColor)

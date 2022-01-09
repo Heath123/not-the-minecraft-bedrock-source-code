@@ -1,0 +1,1 @@
+BreakDoorAnnotationSystem::tick(EntityRegistry&)

@@ -1,0 +1,8 @@
+BlockTypeRegistry::unregisterBlock(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+BlockTypeRegistry::prepareBlocks(unsigned int)
+BlockTypeRegistry::unregisterBlocks()
+BlockTypeRegistry::forEachBlock(std::function<bool (BlockLegacy const&)>)
+BlockTypeRegistry::forEachBlockDEPRECATED(std::function<bool (BlockLegacy&)>)
+BlockTypeRegistry::lookupByName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+BedrockBlockTypes::registerBlocks()
+BedrockBlockTypes::unregisterBlocks()

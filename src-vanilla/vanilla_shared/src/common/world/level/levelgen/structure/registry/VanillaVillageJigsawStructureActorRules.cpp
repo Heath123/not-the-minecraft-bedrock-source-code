@@ -1,0 +1,1 @@
+VanillaVillageJigsawStructureActorRules::initialize(JigsawStructureRegistry&)

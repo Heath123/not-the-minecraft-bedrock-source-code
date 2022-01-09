@@ -1,0 +1,1 @@
+AgentCommandSystem::tick(EntityRegistry&)

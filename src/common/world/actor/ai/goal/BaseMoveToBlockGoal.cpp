@@ -1,0 +1,5 @@
+BaseMoveToBlockGoal::BaseMoveToBlockGoal(Mob&, float, int, int, int, float, float)
+BaseMoveToBlockGoal::canUse()
+BaseMoveToBlockGoal::canContinueToUse()
+BaseMoveToBlockGoal::findTargetBlock()
+BaseMoveToBlockGoal::_moveToBlock()

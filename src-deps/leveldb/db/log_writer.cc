@@ -1,0 +1,5 @@
+leveldb::log::Writer::Writer(leveldb::WritableFile*)
+leveldb::log::Writer::Writer(leveldb::WritableFile*, unsigned long)
+leveldb::log::Writer::~Writer()
+leveldb::log::Writer::AddRecord(leveldb::Slice const&)
+leveldb::log::Writer::EmitPhysicalRecord(leveldb::log::RecordType, char const*, unsigned long)

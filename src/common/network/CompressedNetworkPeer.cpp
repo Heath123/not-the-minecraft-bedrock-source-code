@@ -1,0 +1,6 @@
+CompressedNetworkPeer::CompressedNetworkPeer(std::shared_ptr<NetworkPeer>)
+CompressedNetworkPeer::~CompressedNetworkPeer()
+CompressedNetworkPeer::~CompressedNetworkPeer()
+CompressedNetworkPeer::sendPacket(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, NetworkPeer::Reliability, int, unsigned short, Compressibility)
+CompressedNetworkPeer::receivePacket(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+CompressedNetworkPeer::getNetworkStatus()

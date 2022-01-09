@@ -1,0 +1,5 @@
+CompactionListenerEnv::CompactionListenerEnv(leveldb::Env*)
+CompactionListenerEnv::setCompactionCallback(std::function<void (CompactionStatus)>)
+CompactionListenerEnv::notifyStart()
+CompactionListenerEnv::notifyComplete()
+CompactionListenerEnv::Schedule(void (*)(void*), void*)

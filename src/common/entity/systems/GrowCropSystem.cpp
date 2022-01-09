@@ -1,0 +1,1 @@
+GrowCropSystem::tick(EntityRegistry&)

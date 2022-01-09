@@ -1,0 +1,8 @@
+OceanRuinFeature::OceanRuinFeature(OverworldGenerator&, OceanMonumentFeature&, unsigned int)
+OceanRuinFeature::getNearestGeneratedFeature(Dimension&, BiomeSource&, BlockPos const&, BlockPos&)
+OceanRuinFeature::isFeatureChunk(BiomeSource const&, Random&, ChunkPos const&, unsigned int)
+OceanRuinFeature::createStructureStart(Dimension&, BiomeSource&, Random&, ChunkPos const&)
+OceanRuinStart::OceanRuinStart()
+OceanRuinStart::postProcess(BlockSource*, Random&, BoundingBox const&)
+OceanRuinStart::OceanRuinStart(Dimension&, OverworldGenerator&, Random&, int, int, Biome const&)
+OceanRuinStart::createRuin(Dimension&, OverworldGenerator&, Random&, int, int)

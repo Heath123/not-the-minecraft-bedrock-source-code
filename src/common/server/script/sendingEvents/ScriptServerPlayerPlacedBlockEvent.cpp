@@ -1,0 +1,6 @@
+ScriptServerPlayerPlacedBlockEvent::ScriptServerPlayerPlacedBlockEvent()
+ScriptServerPlayerPlacedBlockEvent::~ScriptServerPlayerPlacedBlockEvent()
+ScriptServerPlayerPlacedBlockEvent::~ScriptServerPlayerPlacedBlockEvent()
+ScriptServerPlayerPlacedBlockEvent::setActorId(ActorUniqueID const&)
+ScriptServerPlayerPlacedBlockEvent::setBlockPos(BlockPos const&)
+ScriptServerPlayerPlacedBlockEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

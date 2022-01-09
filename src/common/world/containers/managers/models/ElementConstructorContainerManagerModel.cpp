@@ -1,0 +1,8 @@
+ElementConstructorContainerManagerModel::ElementConstructorContainerManagerModel(ContainerID, Player&, BlockPos const&)
+ElementConstructorContainerManagerModel::init()
+ElementConstructorContainerManagerModel::getItems()
+ElementConstructorContainerManagerModel::isValid(float)
+ElementConstructorContainerManagerModel::setSlot(int, ContainerItemStack const&, bool)
+ElementConstructorContainerManagerModel::getSlot(int)
+ElementConstructorContainerManagerModel::setData(int, int)
+ElementConstructorContainerManagerModel::broadcastChanges()

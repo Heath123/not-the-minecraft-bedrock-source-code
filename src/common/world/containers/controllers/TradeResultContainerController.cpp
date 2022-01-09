@@ -1,0 +1,5 @@
+TradeResultContainerController::TradeResultContainerController(std::shared_ptr<ContainerModel>)
+TradeResultContainerController::~TradeResultContainerController()
+TradeResultContainerController::~TradeResultContainerController()
+TradeResultContainerController::_canSet(int, ContainerItemStack const&, ItemTransferAmount) const
+TradeResultContainerController::_getAvailableAddCount(int) const

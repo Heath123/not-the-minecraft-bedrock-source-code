@@ -1,0 +1,6 @@
+ScriptServerActorDroppedItemEvent::ScriptServerActorDroppedItemEvent()
+ScriptServerActorDroppedItemEvent::~ScriptServerActorDroppedItemEvent()
+ScriptServerActorDroppedItemEvent::~ScriptServerActorDroppedItemEvent()
+ScriptServerActorDroppedItemEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorDroppedItemEvent::setItemStack(ItemInstance const&)
+ScriptServerActorDroppedItemEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

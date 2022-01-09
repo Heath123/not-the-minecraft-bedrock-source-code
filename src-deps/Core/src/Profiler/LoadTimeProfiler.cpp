@@ -1,0 +1,15 @@
+Core::LoadTimeData::LoadTimeData(gsl::basic_string_span<char const, -1l>, int)
+Core::ScopedLoadTimeSection::ScopedLoadTimeSection(gsl::basic_string_span<char const, -1l>)
+Core::LoadTimeProfiler::getCurrentScope() const
+Core::LoadTimeProfiler::pushSection(Core::ScopedLoadTimeSection*)
+Core::ScopedLoadTimeSection::~ScopedLoadTimeSection()
+Core::ScopedLoadTimeSection::_accumulateTime()
+Core::LoadTimeProfiler::popSection(Core::LoadTimeData&&)
+Core::ScopedLoadTimeSection::pause()
+Core::ScopedLoadTimeSection::resume()
+Core::LoadTimeProfiler::LoadTimeProfiler()
+Core::LoadTimeProfiler::startLogging(gsl::basic_string_span<char const, -1l>, gsl::basic_string_span<char const, -1l>, gsl::basic_string_span<char const, -1l>)
+Core::LoadTimeProfiler::endLogging()
+Core::LoadTimeProfiler::isLogging() const
+Core::LoadTimeProfiler::setEnabled(bool)
+Core::LoadTimeProfiler::update()

@@ -1,0 +1,1 @@
+LookAtSystem::tick(EntityRegistry&)

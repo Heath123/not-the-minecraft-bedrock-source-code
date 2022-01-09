@@ -1,0 +1,4 @@
+ShulkerBoxContainerController::ShulkerBoxContainerController(std::shared_ptr<ContainerModel>)
+ShulkerBoxContainerController::~ShulkerBoxContainerController()
+ShulkerBoxContainerController::~ShulkerBoxContainerController()
+ShulkerBoxContainerController::isItemAllowed(ItemInstance const&) const

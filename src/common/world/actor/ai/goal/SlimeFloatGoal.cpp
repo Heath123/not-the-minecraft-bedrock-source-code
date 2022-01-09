@@ -1,0 +1,4 @@
+SlimeFloatGoal::SlimeFloatGoal(Mob&)
+SlimeFloatGoal::canUse()
+SlimeFloatGoal::tick()
+SlimeFloatGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const

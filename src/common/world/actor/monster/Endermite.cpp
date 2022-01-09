@@ -1,0 +1,8 @@
+Endermite::Endermite(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Endermite::checkSpawnRules(bool)
+Endermite::aiStep()
+Endermite::normalTick()
+Endermite::getRidingHeight()
+Endermite::readAdditionalSaveData(CompoundTag const&, DataLoadHelper&)
+Endermite::addAdditionalSaveData(CompoundTag&)
+Endermite::_onSizeUpdated()

@@ -1,0 +1,1 @@
+TradeableSystem::tick(EntityRegistry&)

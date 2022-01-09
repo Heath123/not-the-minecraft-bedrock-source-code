@@ -1,0 +1,12 @@
+DropItemForGoal::DropItemForGoal(Mob&, float, int, int, float, DefinitionTrigger const&, float, float, float, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, FloatRange)
+DropItemForGoal::canUse()
+DropItemForGoal::canContinueToUse()
+DropItemForGoal::tick()
+DropItemForGoal::_getLootTable()
+DropItemForGoal::_checkWhereHaveYouBeenAchievement(Actor*)
+DropItemForGoal::start()
+DropItemForGoal::stop()
+DropItemForGoal::findTargetBlock()
+DropItemForGoal::isValidTarget(BlockSource&, BlockPos const&)
+DropItemForGoal::getFilter()
+DropItemForGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const

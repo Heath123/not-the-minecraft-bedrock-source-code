@@ -1,0 +1,5 @@
+Ocelot::Ocelot(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Ocelot::reloadHardcoded(Actor::InitializationMethod, VariantParameterList const&)
+Ocelot::updateEntitySpecificMolangVariables(RenderParams&)
+Ocelot::doHurtTarget(Actor*)
+Ocelot::_serverAiMobStep()

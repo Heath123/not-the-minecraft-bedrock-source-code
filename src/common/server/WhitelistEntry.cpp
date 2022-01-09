@@ -1,0 +1,5 @@
+WhitelistEntry::WhitelistEntry(Json::Value&)
+WhitelistEntry::WhitelistEntry(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, mce::UUID, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool)
+WhitelistEntry::WhitelistEntry(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+WhitelistEntry::serialize(Json::Value&)
+WhitelistEntry::deserialize(Json::Value&)

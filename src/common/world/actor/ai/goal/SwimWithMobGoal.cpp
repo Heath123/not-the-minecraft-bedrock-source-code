@@ -1,0 +1,10 @@
+SwimWithMobGoal::SwimWithMobGoal(Mob&, float, float, int, std::vector<MobDescriptor, std::allocator<MobDescriptor> > const&)
+SwimWithMobGoal::canUse()
+SwimWithMobGoal::_setWantedMob()
+SwimWithMobGoal::canContinueToUse()
+SwimWithMobGoal::canBeInterrupted()
+SwimWithMobGoal::start()
+SwimWithMobGoal::stop()
+SwimWithMobGoal::tick()
+SwimWithMobGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const
+SwimWithMobGoal::_canSwimWith(Actor&)

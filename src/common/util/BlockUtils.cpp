@@ -1,0 +1,1 @@
+BlockUtils::isFullFlowingWater(Block const&)

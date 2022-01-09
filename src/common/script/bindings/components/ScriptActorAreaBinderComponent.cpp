@@ -1,0 +1,8 @@
+ScriptActorAreaBinderComponent::ScriptActorAreaBinderComponent()
+ScriptActorAreaBinderComponent::ScriptActorAreaBinderComponent(ActorUniqueID)
+ScriptActorAreaBinderComponent::ScriptActorAreaBinderComponent(ITickingArea const&)
+ScriptActorAreaBinderComponent::~ScriptActorAreaBinderComponent()
+ScriptActorAreaBinderComponent::~ScriptActorAreaBinderComponent()
+ScriptActorAreaBinderComponent::serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle const&) const
+ScriptActorAreaBinderComponent::deserialize(ScriptEngine&, ScriptApi::ScriptObjectHandle const&)
+ScriptActorAreaBinderComponent::getIdentifier() const

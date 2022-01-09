@@ -1,0 +1,8 @@
+VanillaDimensions::fromSerializedInt(int)
+VanillaDimensions::toSerializedInt(AutomaticID<Dimension, int> const&)
+VanillaDimensions::fromString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+VanillaDimensions::toString[abi:cxx11](AutomaticID<Dimension, int> const&)
+VanillaDimensions::convertPointBetweenDimensions(Vec3 const&, Vec3&, AutomaticID<Dimension, int>, AutomaticID<Dimension, int>, DimensionConversionData const&)
+VanillaDimensions::_convertPointFromOverworld(Vec3 const&, Vec3&, AutomaticID<Dimension, int>, int)
+VanillaDimensions::_convertPointFromNether(Vec3 const&, Vec3&, AutomaticID<Dimension, int>, int)
+VanillaDimensions::_convertPointFromEnd(Vec3 const&, Vec3&, AutomaticID<Dimension, int>, Vec3 const&)

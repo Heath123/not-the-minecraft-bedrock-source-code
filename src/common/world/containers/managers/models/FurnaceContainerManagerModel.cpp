@@ -1,0 +1,27 @@
+FurnaceContainerManagerModel::FurnaceContainerManagerModel(ContainerID, Player&, BlockPos const&)
+FurnaceContainerManagerModel::FurnaceContainerManagerModel(Util::HashString const&, ContainerType, BlockActorType, ContainerID, Player&, BlockPos const&)
+FurnaceContainerManagerModel::_getIngredientNameFromType(Util::HashString const&)
+FurnaceContainerManagerModel::~FurnaceContainerManagerModel()
+FurnaceContainerManagerModel::~FurnaceContainerManagerModel()
+FurnaceContainerManagerModel::init()
+FurnaceContainerManagerModel::_getFurnaceEntity()
+FurnaceContainerManagerModel::_updateResultSlotInfo()
+FurnaceContainerManagerModel::getItems()
+FurnaceContainerManagerModel::setSlot(int, ContainerItemStack const&, bool)
+FurnaceContainerManagerModel::getSlot(int)
+FurnaceContainerManagerModel::setData(int, int)
+FurnaceContainerManagerModel::broadcastChanges()
+FurnaceContainerManagerModel::getBurnProgress(int)
+FurnaceContainerManagerModel::getLitProgress(int)
+FurnaceContainerManagerModel::isFinished(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, int&)
+FurnaceContainerManagerModel::isFurnaceValid(float)
+FurnaceContainerManagerModel::grantExperienceForSmelting(ItemInstance const&, int)
+FurnaceContainerManagerModel::fireItemSmeltedEvent(ItemDescriptor const&)
+FurnaceContainerManagerModel::fireItemAcquiredEvent(ItemInstance const&, int)
+FurnaceContainerManagerModel::getOutputName[abi:cxx11]() const
+FurnaceContainerManagerModel::getOutputId() const
+FurnaceContainerManagerModel::getBlockPos() const
+FurnaceContainerManagerModel::getBlockActorType() const
+FurnaceContainerManagerModel::_onFurnaceIngredientSlotChanged(int, ItemStack const&, ItemStack const&)
+FurnaceContainerManagerModel::_onFurnaceFuelSlotChanged(int, ItemStack const&, ItemStack const&)
+FurnaceContainerManagerModel::_onFurnaceResultSlotChanged(int, ItemStack const&, ItemStack const&)

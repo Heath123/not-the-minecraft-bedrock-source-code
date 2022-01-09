@@ -1,0 +1,8 @@
+ServerCommunicationInterface::create(NetworkAddress const&)
+ServerCommunicationInterface::ServerCommunicationInterface(std::unique_ptr<RakNet::TCPInterface, std::default_delete<RakNet::TCPInterface> >, RakNet::SystemAddress)
+ServerCommunicationInterface::communicate(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Json::Value const&)
+ServerCommunicationInterface::~ServerCommunicationInterface()
+ServerCommunicationInterface::sendLatencyTimepoints(std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ServerCommunicationInterface::sendServerStarted()
+ServerCommunicationInterface::sendServerTickTime(std::chrono::duration<long, std::ratio<1l, 1000000000l> >)
+ServerCommunicationInterface::sendBandwidthMetric(unsigned long, unsigned long, unsigned long, unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)

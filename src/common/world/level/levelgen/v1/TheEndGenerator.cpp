@@ -1,0 +1,18 @@
+TheEndGenerator::TheEndGenerator(Dimension&, unsigned int)
+TheEndGenerator::~TheEndGenerator()
+TheEndGenerator::~TheEndGenerator()
+TheEndGenerator::_prepareStructureBlueprints(ChunkPos const&, BiomeSource&)
+TheEndGenerator::garbageCollectBlueprints(buffer_span<ChunkPos>)
+TheEndGenerator::loadChunk(LevelChunk&, bool)
+TheEndGenerator::buildSurfaces(BlockVolume&, ChunkPos const&, LevelChunk&)
+TheEndGenerator::prepareHeights(BlockVolume&, ChunkPos const&, bool)
+TheEndGenerator::getHeights(float*, int, int, int)
+TheEndGenerator::getIslandHeightValue(int, int, int, int)
+TheEndGenerator::postProcess(ChunkViewSource&)
+TheEndGenerator::postProcessMobsAt(BlockSource*, int, int, Random&)
+TheEndGenerator::getFeatureTypeAt(BlockPos const&)
+TheEndGenerator::isIslandChunk(int, int)
+TheEndGenerator::gatherStats[abi:cxx11]()
+TheEndGenerator::findNearestFeature(StructureFeatureType, BlockPos const&, BlockPos&)
+TheEndGenerator::getBiomeArea(BoundingBox const&, unsigned int) const
+TheEndGenerator::findSpawnPosition() const

@@ -1,0 +1,1 @@
+VanillaServerCommands::setup(CommandRegistry&)

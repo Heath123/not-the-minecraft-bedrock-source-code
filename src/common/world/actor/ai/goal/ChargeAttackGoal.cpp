@@ -1,0 +1,6 @@
+ChargeAttackGoal::ChargeAttackGoal(Mob&)
+ChargeAttackGoal::canUse()
+ChargeAttackGoal::canContinueToUse()
+ChargeAttackGoal::start()
+ChargeAttackGoal::stop()
+ChargeAttackGoal::tick()

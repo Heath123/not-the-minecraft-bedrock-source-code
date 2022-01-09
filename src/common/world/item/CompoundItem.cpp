@@ -1,0 +1,15 @@
+CompoundItem::CompoundItem(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)
+CompoundItem::_registerSpecialCompounds()
+CompoundItem::_registerSpecialCompound(ItemInstance const&, CompoundType)
+CompoundItem::unregisterSpecialCompounds()
+CompoundItem::_getName[abi:cxx11](CompoundType)
+CompoundItem::buildDescriptionId[abi:cxx11](ItemDescriptor const&, std::unique_ptr<CompoundTag, std::default_delete<CompoundTag> > const&) const
+CompoundItem::getCompoundType(ItemDescriptor const&)
+CompoundItem::setIcon(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)
+CompoundItem::getIcon(ItemStackBase const&, int, bool) const
+CompoundItem::getItemForCompound(CompoundType, int)
+CompoundItem::getIngredientForCompound(CompoundType)
+CompoundItem::isCompoundItem(ItemInstance const&)
+CompoundItem::getCompoundContainer(CompoundType)
+CompoundItem::getCompoundContainer(ItemInstance const&)
+CompoundItem::getCompoundFormula[abi:cxx11](ItemInstance const&)

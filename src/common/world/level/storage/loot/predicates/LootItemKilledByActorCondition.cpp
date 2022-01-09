@@ -1,0 +1,3 @@
+LootItemKilledByActorCondition::LootItemKilledByActorCondition(ActorDefinitionIdentifier)
+LootItemKilledByActorCondition::applies(Random&, LootTableContext&)
+LootItemKilledByActorCondition::deserialize(Json::Value)

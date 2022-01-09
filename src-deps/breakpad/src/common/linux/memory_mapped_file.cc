@@ -1,0 +1,5 @@
+google_breakpad::MemoryMappedFile::MemoryMappedFile()
+google_breakpad::MemoryMappedFile::MemoryMappedFile(char const*, unsigned long)
+google_breakpad::MemoryMappedFile::Map(char const*, unsigned long)
+google_breakpad::MemoryMappedFile::~MemoryMappedFile()
+google_breakpad::MemoryMappedFile::Unmap()

@@ -1,0 +1,5 @@
+EnchantBookForTradingFunction::apply(ItemStack&, Random&, LootTableContext&)
+EnchantBookForTradingFunction::apply(ItemInstance&, Random&, LootTableContext&)
+EnchantBookForTradingFunction::apply(ItemStack&, Random&, Trade const&, LootTableContext&)
+EnchantBookForTradingFunction::apply(ItemInstance&, Random&, Trade const&, LootTableContext&)
+EnchantBookForTradingFunction::deserialize(Json::Value, std::vector<std::unique_ptr<LootItemCondition, std::default_delete<LootItemCondition> >, std::allocator<std::unique_ptr<LootItemCondition, std::default_delete<LootItemCondition> > > >&)

@@ -1,0 +1,7 @@
+InMemoryWritableFile::InMemoryWritableFile(std::shared_ptr<InMemoryFile>)
+InMemoryWritableFile::~InMemoryWritableFile()
+InMemoryWritableFile::~InMemoryWritableFile()
+InMemoryWritableFile::Append(leveldb::Slice const&)
+InMemoryWritableFile::Close()
+InMemoryWritableFile::Flush()
+InMemoryWritableFile::Sync()

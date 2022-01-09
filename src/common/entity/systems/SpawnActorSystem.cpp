@@ -1,0 +1,1 @@
+SpawnActorSystem::tick(EntityRegistry&)

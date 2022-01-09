@@ -1,0 +1,8 @@
+RuntimeLightingManager::RuntimeLightingManager(Dimension&)
+RuntimeLightingManager::updateBlockLight(BlockPos const&, Brightness, Brightness, Brightness, Brightness, bool)
+RuntimeLightingManager::_checkForRelightingTask()
+RuntimeLightingManager::_getListOfChunksWithPlayerDistance()
+RuntimeLightingManager::_sortChunksToProcessByDistance()
+RuntimeLightingManager::_relightChunks()
+RuntimeLightingManager::_removeProcessedSubchunks()
+SubChunkLightUpdate::SubChunkLightUpdate(SubChunkBlockPos const&, Brightness, Brightness, Brightness, Brightness, bool)

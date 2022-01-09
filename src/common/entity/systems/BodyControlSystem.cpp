@@ -1,0 +1,1 @@
+BodyControlSystem::tick(EntityRegistry&)

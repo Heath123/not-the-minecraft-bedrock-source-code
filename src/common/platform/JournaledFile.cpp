@@ -1,0 +1,16 @@
+JournaledFile::findReadPath[abi:cxx11](Core::Path)
+JournaledFile::findBackupPath[abi:cxx11](Core::Path)
+JournaledFile::fileOrBackupExists(Core::Path)
+JournaledFile::populateImportantFiles(Core::Path, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+JournaledFile::isOldFile(Core::Path)
+JournaledFile::isNewFile(Core::Path)
+JournaledFile::JournaledFile(std::function<Core::Result (Core::Path)>&&)
+JournaledFile::~JournaledFile()
+JournaledFile::isOpen() const
+JournaledFile::close()
+JournaledFile::open(Core::Path, Core::FileOpenMode, Core::FileBufferingMode)
+JournaledFile::_flushFiles()
+JournaledFile::write(void const*, unsigned long)
+JournaledFile::flush()
+JournaledFile::getFile()
+JournaledFile::getFile() const

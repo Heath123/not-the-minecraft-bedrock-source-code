@@ -1,0 +1,20 @@
+Core::FlatFileSearchResult::FlatFileSearchResult()
+Core::FlatFileSearchResult::FlatFileSearchResult(std::shared_ptr<Core::FlatFileManifest const>, Core::FlatFileManifestInfo const*)
+Core::FlatFileSearchResult::getManifest() const
+Core::FlatFileSearchResult::getEntry() const
+Core::FlatFileSearchResult::isEntryFound() const
+Core::FlatFileSystemImpl::createFlatFile(Core::Path const&, Core::Path const&)
+Core::FlatFileSystemImpl::shouldAccessFlatFile(Core::Path const&, Core::PathBuffer<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, bool)
+Core::FlatFileSystemImpl::isDirectoryPathAFlatFile(Core::Path const&)
+Core::FlatFileSystemImpl::fileOrDirectoryExists(Core::Path const&, Core::Path const&)
+Core::FlatFileSystemImpl::_findFileOrDirectoryEntry(Core::Path const&, Core::Path const&, bool)
+Core::FlatFileSystemImpl::_getSeekPositionAndSize(Core::Path const&, Core::Path const&, unsigned long&, unsigned long&)
+Core::FlatFileSystemImpl::fileExists(Core::Path const&, Core::Path const&)
+Core::FlatFileSystemImpl::directoryExists(Core::Path const&, Core::Path const&)
+Core::FlatFileSystemImpl::iterateOverDirectory(Core::Path const&, Core::Path const&, Core::DirectoryIterationFlags, std::function<Core::Result (Core::DirectoryIterationItem const&)>)
+Core::FlatFileSystemImpl::deleteFileOrDirectory(Core::Path const&, Core::Path const&, bool, bool)
+Core::FlatFileSystemImpl::copyFlatFile(Core::Path const&, Core::Path const&, std::vector<Core::ExcludedPath, std::allocator<Core::ExcludedPath> > const&, std::vector<Core::ExcludedPath, std::allocator<Core::ExcludedPath> > const&)
+Core::FlatFileSystemImpl::_deleteFlatFile(Core::Path const&)
+Core::FlatFileSystemImpl::openFlatFile(std::unique_ptr<Core::FileImpl, std::default_delete<Core::FileImpl> >&, Core::Path const&, Core::Path const&, Core::FileOpenMode, Core::FileBufferingMode)
+Core::FlatFileSystemImpl::getFileSize(Core::Path const&, Core::Path const&, unsigned long*)
+Core::FlatFileSystemImpl::FlatFileSystemImpl(Core::FileSystemImpl&, std::shared_ptr<Core::FlatFileManifestTracker>)

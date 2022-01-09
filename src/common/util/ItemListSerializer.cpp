@@ -1,0 +1,4 @@
+loadItem(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::set<Item const*, std::less<Item const*>, std::allocator<Item const*> >&)
+ItemListSerializer::loadJSONSet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::set<Item const*, std::less<Item const*>, std::allocator<Item const*> >&, Json::Value)
+ItemListSerializer::saveNBTSet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, CompoundTag&, std::set<Item const*, std::less<Item const*>, std::allocator<Item const*> > const&)
+ItemListSerializer::loadNBTSet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::set<Item const*, std::less<Item const*>, std::allocator<Item const*> >&, CompoundTag const&)

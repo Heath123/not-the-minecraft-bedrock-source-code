@@ -1,0 +1,5 @@
+ScriptEngine::ScriptQueueData::ScriptQueueData(Core::Path const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ScriptEngine::queueScript(Core::Path const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ScriptEngine::_addScriptToQueue(ScriptEngine::ScriptQueueData const&)
+ScriptEngine::startScriptLoading()
+ScriptEngine::_loadScriptQueue()

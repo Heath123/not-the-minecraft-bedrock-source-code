@@ -1,0 +1,10 @@
+DragonStrafePlayerGoal::DragonStrafePlayerGoal(EnderDragon&)
+DragonStrafePlayerGoal::canUse()
+DragonStrafePlayerGoal::canContinueToUse()
+DragonStrafePlayerGoal::start()
+DragonStrafePlayerGoal::setTarget(Actor*)
+DragonStrafePlayerGoal::stop()
+DragonStrafePlayerGoal::tick()
+DragonStrafePlayerGoal::findNewTarget()
+DragonStrafePlayerGoal::navigateToNextPathNode()
+DragonStrafePlayerGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const

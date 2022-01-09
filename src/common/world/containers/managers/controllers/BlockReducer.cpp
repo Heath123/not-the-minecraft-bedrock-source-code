@@ -1,0 +1,8 @@
+BlockReducer::BlockReducer()
+BlockReducer::~BlockReducer()
+BlockReducer::~BlockReducer()
+BlockReducer::getReduction(ItemInstance const&)
+BlockReducer::_getBlockKey(ItemDescriptor const&)
+BlockReducer::registerBlocks()
+BlockReducer::_registerBlock(ItemStack const&, std::vector<ChemistryIngredient, std::allocator<ChemistryIngredient> > const&)
+BlockReducer::_registerBlock(ItemStack const&, std::vector<ItemStack, std::allocator<ItemStack> >&&)

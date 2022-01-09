@@ -1,0 +1,16 @@
+NetherGenerator::NetherGenerator(Dimension&, unsigned int)
+NetherGenerator::~NetherGenerator()
+NetherGenerator::~NetherGenerator()
+NetherGenerator::prepareHeights(BlockVolume&, ChunkPos const&, bool)
+NetherGenerator::getHeights(float*, int, int, int)
+NetherGenerator::buildSurfaces(BlockVolume&, LevelChunk&, ChunkPos const&)
+NetherGenerator::_prepareStructureBlueprints(ChunkPos const&, BiomeSource&)
+NetherGenerator::garbageCollectBlueprints(buffer_span<ChunkPos>)
+NetherGenerator::addHardcodedSpawnAreas(LevelChunk&)
+NetherGenerator::loadChunk(LevelChunk&, bool)
+NetherGenerator::postProcess(ChunkViewSource&)
+NetherGenerator::getFeatureTypeAt(BlockPos const&)
+NetherGenerator::gatherStats[abi:cxx11]()
+NetherGenerator::findNearestFeature(StructureFeatureType, BlockPos const&, BlockPos&)
+NetherGenerator::getBiomeArea(BoundingBox const&, unsigned int) const
+NetherGenerator::findSpawnPosition() const

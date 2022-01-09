@@ -1,0 +1,1 @@
+BlockBreakSensorSystem::tick(EntityRegistry&)

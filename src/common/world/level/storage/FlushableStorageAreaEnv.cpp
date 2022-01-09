@@ -1,0 +1,5 @@
+FlushableStorageAreaEnv::FlushableStorageAreaEnv(leveldb::Env*, std::shared_ptr<Core::FileStorageArea>)
+FlushableStorageAreaEnv::~FlushableStorageAreaEnv()
+FlushableStorageAreaEnv::_flushStorageArea()
+FlushableStorageAreaEnv::~FlushableStorageAreaEnv()
+FlushableStorageAreaEnv::flushToPermanentStorage()

@@ -1,0 +1,1 @@
+SensingSystem::tick(EntityRegistry&)

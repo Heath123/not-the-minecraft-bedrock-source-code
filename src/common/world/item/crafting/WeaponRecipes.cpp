@@ -1,0 +1,1 @@
+WeaponRecipes::addRecipes(Recipes&)

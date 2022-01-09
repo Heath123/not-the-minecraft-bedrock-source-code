@@ -1,0 +1,6 @@
+ScriptServerPlayerAttackedActorEvent::ScriptServerPlayerAttackedActorEvent()
+ScriptServerPlayerAttackedActorEvent::~ScriptServerPlayerAttackedActorEvent()
+ScriptServerPlayerAttackedActorEvent::~ScriptServerPlayerAttackedActorEvent()
+ScriptServerPlayerAttackedActorEvent::setPlayerId(ActorUniqueID const&)
+ScriptServerPlayerAttackedActorEvent::setAttackedActorId(ActorUniqueID const&)
+ScriptServerPlayerAttackedActorEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

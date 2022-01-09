@@ -1,0 +1,1 @@
+DespawnSystem::tick(EntityRegistry&)

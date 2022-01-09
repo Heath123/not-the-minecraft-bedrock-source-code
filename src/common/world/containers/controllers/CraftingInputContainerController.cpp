@@ -1,0 +1,7 @@
+CraftingInputContainerController::CraftingInputContainerController(std::shared_ptr<ContainerModel>)
+CraftingInputContainerController::~CraftingInputContainerController()
+CraftingInputContainerController::~CraftingInputContainerController()
+CraftingInputContainerController::getBackgroundStyle(int) const
+CraftingInputContainerController::onRecipeSelected(Recipe const*, bool, bool)
+CraftingInputContainerController::getRecipeItem(int) const
+CraftingInputContainerController::clearSelectedRecipe()

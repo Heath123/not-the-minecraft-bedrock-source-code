@@ -1,0 +1,1 @@
+AgeableSystem::tick(EntityRegistry&)

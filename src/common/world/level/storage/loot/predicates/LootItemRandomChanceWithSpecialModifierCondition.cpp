@@ -1,0 +1,3 @@
+LootItemRandomChanceWithSpecialModifierCondition::LootItemRandomChanceWithSpecialModifierCondition(float)
+LootItemRandomChanceWithSpecialModifierCondition::applies(Random&, LootTableContext&)
+LootItemRandomChanceWithSpecialModifierCondition::deserialize(Json::Value)

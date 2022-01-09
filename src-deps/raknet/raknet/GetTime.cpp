@@ -1,0 +1,6 @@
+RakNet::GetTime()
+RakNet::GetTimeUS()
+RakNet::GetTimeMS()
+GetTimeUS_Linux()
+RakNet::GreaterThan(unsigned long, unsigned long)
+RakNet::LessThan(unsigned long, unsigned long)

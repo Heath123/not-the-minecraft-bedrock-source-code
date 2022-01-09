@@ -1,0 +1,17 @@
+TeleportDescription::getJsonName() const
+TeleportDescription::deserializeData(Json::Value&)
+TeleportDescription::serializeData(Json::Value&) const
+TeleportComponent::initFromDefinition(Actor&)
+TeleportComponent::initFromDefinition(TeleportDescription const&)
+TeleportComponent::teleport(Actor&, Vec3 const&)
+TeleportComponent::randomTeleport(Actor&)
+TeleportComponent::teleportTowards(Actor&, Actor const&)
+TeleportComponent::getRandomTeleports()
+TeleportComponent::getMinTeleportTime()
+TeleportComponent::getMaxTeleportTime()
+TeleportComponent::getTargetDistance()
+TeleportComponent::getTargetTeleportChance()
+TeleportComponent::getLightTeleportChance()
+TeleportComponent::getDarkTeleportChance()
+TeleportComponent::getTeleportTime()
+TeleportComponent::setTeleportTime(int)

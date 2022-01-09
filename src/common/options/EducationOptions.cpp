@@ -1,0 +1,11 @@
+EducationOptions::EducationOptions(ResourcePackManager*)
+EducationOptions::~EducationOptions()
+EducationOptions::~EducationOptions()
+EducationOptions::init(LevelData const&)
+EducationOptions::_setFeature(EducationFeature, bool)
+EducationOptions::_isFeatureEnabled(EducationFeature) const
+EducationOptions::onActiveResourcePacksChanged(ResourcePackManager&)
+EducationOptions::isChemistryEnabled()
+EducationOptions::isEducationEnabled()
+EducationOptions::isCodeBuilderEnabled()
+EducationOptions::isBaseCodeBuilderEnabled()

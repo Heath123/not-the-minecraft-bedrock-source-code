@@ -1,0 +1,1 @@
+DamageOverTimeSystem::tick(EntityRegistry&)

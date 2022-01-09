@@ -1,0 +1,8 @@
+ResourcePackFileUploadManager::ResourcePackFileUploadManager(TaskGroup&, std::shared_ptr<IFileChunkUploader>)
+ResourcePackFileUploadManager::ResourcePackFileUploadManager(TaskGroup&, std::shared_ptr<IFileChunkUploader>, std::weak_ptr<FileArchiver>)
+ResourcePackFileUploadManager::~ResourcePackFileUploadManager()
+ResourcePackFileUploadManager::~ResourcePackFileUploadManager()
+ResourcePackFileUploadManager::uploadResourcePack(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ResourceLocation const&, bool, bool, PackType, bool)
+ResourcePackFileUploadManager::_uploadResourcePackFolder(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ResourceLocation const&, Core::Path const&, bool, Json::Value const&)
+ResourcePackFileUploadManager::uploadFileToRealmStorage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Core::Path const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ResourcePackFileUploadManager::_uploadPackToRealmStorage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Core::Path const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)

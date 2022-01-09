@@ -1,0 +1,6 @@
+EntityComponentFactory::tryGetDefinitionSerializer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+EntityComponentFactory::serializeComponentDefinitions(DefinitionInstanceGroup&, Json::Value const&, bool)
+EntityComponentFactory::addComponents(EntityContext&, DefinitionInstanceGroup const&)
+EntityComponentFactory::removeComponents(EntityContext&, DefinitionInstanceGroup const&)
+EntityComponentFactory::addComponents(EntityContext&, Json::Value const&, bool)
+EntityComponentFactory::removeComponents(EntityContext&, Json::Value const&, bool)

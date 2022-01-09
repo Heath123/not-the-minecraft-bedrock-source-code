@@ -1,0 +1,1 @@
+TargetNearbySystem::tick(EntityRegistry&)

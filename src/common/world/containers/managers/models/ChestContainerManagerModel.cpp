@@ -1,0 +1,10 @@
+ChestContainerManagerModel::ChestContainerManagerModel(ContainerID, Player&, BlockPos const&, BlockActorType)
+ChestContainerManagerModel::ChestContainerManagerModel(ContainerID, Player&, ActorUniqueID)
+ChestContainerManagerModel::~ChestContainerManagerModel()
+ChestContainerManagerModel::~ChestContainerManagerModel()
+ChestContainerManagerModel::init()
+ChestContainerManagerModel::closeContainer()
+ChestContainerManagerModel::fireFullCobbleStoneEvent()
+ChestContainerManagerModel::fireItemAcquiredEvent(ItemInstance const&, int)
+ChestContainerManagerModel::isValid(float)
+ChestContainerManagerModel::getBlockActorType() const

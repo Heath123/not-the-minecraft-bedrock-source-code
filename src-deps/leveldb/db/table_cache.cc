@@ -1,0 +1,6 @@
+leveldb::TableCache::TableCache(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, leveldb::Options const*, int)
+leveldb::TableCache::~TableCache()
+leveldb::TableCache::FindTable(unsigned long, unsigned long, leveldb::Cache::Handle**)
+leveldb::TableCache::NewIterator(leveldb::ReadOptions const&, unsigned long, unsigned long, leveldb::Table**)
+leveldb::TableCache::Get(leveldb::ReadOptions const&, unsigned long, unsigned long, leveldb::Slice const&, void*, void (*)(void*, leveldb::Slice const&, leveldb::Slice const&))
+leveldb::TableCache::Evict(unsigned long)

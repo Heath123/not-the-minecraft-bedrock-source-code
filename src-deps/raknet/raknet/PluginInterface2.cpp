@@ -1,0 +1,12 @@
+RakNet::PluginInterface2::PluginInterface2()
+RakNet::PluginInterface2::~PluginInterface2()
+RakNet::PluginInterface2::~PluginInterface2()
+RakNet::PluginInterface2::SendUnified(RakNet::BitStream const*, PacketPriority, PacketReliability, char, RakNet::AddressOrGUID, bool)
+RakNet::PluginInterface2::GetMyGUIDUnified() const
+RakNet::PluginInterface2::SendUnified(char const*, int, PacketPriority, PacketReliability, char, RakNet::AddressOrGUID, bool)
+RakNet::PluginInterface2::AllocatePacketUnified(unsigned int)
+RakNet::PluginInterface2::PushBackPacketUnified(RakNet::Packet*, bool)
+RakNet::PluginInterface2::DeallocPacketUnified(RakNet::Packet*)
+RakNet::PluginInterface2::SendListUnified(char const**, int const*, int, PacketPriority, PacketReliability, char, RakNet::AddressOrGUID, bool)
+RakNet::PluginInterface2::SetRakPeerInterface(RakNet::RakPeerInterface*)
+RakNet::PluginInterface2::SetTCPInterface(RakNet::TCPInterface*)

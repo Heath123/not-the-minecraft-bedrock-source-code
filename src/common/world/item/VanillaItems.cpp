@@ -1,0 +1,5 @@
+VanillaItems::registerItems(bool)
+VanillaItems::unregisterItems()
+VanillaItems::initClientData()
+VanillaItems::initCreativeCategories()
+VanillaItems::initCreativeItemsCallback(ActorInfoRegistry*, BlockDefinitionGroup*, bool)

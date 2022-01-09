@@ -1,0 +1,1 @@
+ClassID::getNextID()

@@ -1,0 +1,5 @@
+PackDependencyManager::getMissingDependencyIdentities(PackContentItem const*)
+PackDependencyManager::getMissingDependencyIdentities(PackSource const*, PackManifest const&)
+PackDependencyManager::packIsDependedUpon(PackManifest const&, PackManifest const&)
+PackDependencyManager::hasMissingDependencies(PackContentItem const*)
+PackDependencyManager::hasMissingDependencies(PackSource const*, PackManifest const&)

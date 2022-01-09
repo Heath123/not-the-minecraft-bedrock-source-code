@@ -1,0 +1,15 @@
+PoolElementStructurePiece::PoolElementStructurePiece(StructurePoolElement const&, BlockPos, Rotation, int, JigsawJunction&, BoundingBox const&)
+PoolElementStructurePiece::postProcess(BlockSource*, Random&, BoundingBox const&)
+PoolElementStructurePiece::_fillWithSupportBlock(BlockPos const&, BlockSource*, BoundingBox const&, Block const&, Random&)
+PoolElementStructurePiece::_stabilizeBeard(BlockPos const&, BlockSource*, Block const&)
+PoolElementStructurePiece::postProcessMobsAt(BlockSource*, Random&, BoundingBox const&)
+PoolElementStructurePiece::moveBoundingBox(int, int, int)
+PoolElementStructurePiece::getRotation() const
+PoolElementStructurePiece::getPosition() const
+PoolElementStructurePiece::getElement() const
+PoolElementStructurePiece::getJunction() const
+PoolElementStructurePiece::addPiece(std::vector<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> >, std::allocator<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> > > >&, StructurePoolElement const*, Random&, BlockPos, Rotation, int, JigsawStructureRegistry const&, Dimension&, BlockVolume&, std::unordered_map<ChunkPos, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > >, std::hash<ChunkPos>, std::equal_to<ChunkPos>, std::allocator<std::pair<ChunkPos const, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > > > > >&)
+PoolElementStructurePiece::tryPlacingPiece(std::vector<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> >, std::allocator<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> > > >&, StructurePoolElement const*, Random&, JigsawBlockInfo&, BoundingBox, std::vector<BoundingBox, std::allocator<BoundingBox> >&, BlockPos, StructureTemplatePool const*, int, JigsawStructureRegistry const&, Dimension&, BlockVolume&, std::unordered_map<ChunkPos, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > >, std::hash<ChunkPos>, std::equal_to<ChunkPos>, std::allocator<std::pair<ChunkPos const, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > > > > >&)
+PoolElementStructurePiece::_generateHeightAtPosition(BlockPos const&, Dimension&, BlockVolume&, std::unordered_map<ChunkPos, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > >, std::hash<ChunkPos>, std::equal_to<ChunkPos>, std::allocator<std::pair<ChunkPos const, std::unique_ptr<std::vector<short, std::allocator<short> >, std::default_delete<std::vector<short, std::allocator<short> > > > > > >&)
+PoolElementStructurePiece::hasSpaceInSource(BoundingBox const&, BoundingBox const&, std::vector<BoundingBox, std::allocator<BoundingBox> >&)
+PoolElementStructurePiece::hasSpace(std::vector<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> >, std::allocator<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> > > >&, BoundingBox const&)

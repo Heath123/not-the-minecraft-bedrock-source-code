@@ -1,0 +1,7 @@
+ClassroomModeListener::ClassroomModeListener(IMinecraftEventing&)
+ClassroomModeListener::onEntityAdded(Actor&)
+ClassroomModeListener::onEntityRemoved(Actor&)
+ClassroomModeListener::onBlockChanged(BlockSource&, BlockPos const&, unsigned int, Block const&, Block const&, int, ActorBlockSyncMessage const*)
+ClassroomModeListener::onAreaChanged(BlockSource&, BlockPos const&, BlockPos const&)
+ClassroomModeListener::onChunkLoaded(LevelChunk&)
+ClassroomModeListener::onChunkUnloaded(LevelChunk&)

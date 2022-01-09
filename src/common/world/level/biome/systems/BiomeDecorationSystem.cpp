@@ -1,0 +1,7 @@
+BiomeDecorationSystem::getHeightmapMolang(RenderParams&, std::vector<float, std::allocator<float> > const&)
+BiomeDecorationSystem::getAboveTopSolidMolang(RenderParams&, std::vector<float, std::allocator<float> > const&)
+BiomeDecorationSystem::getIsEmptyMolang(RenderParams&, std::vector<float, std::allocator<float> > const&)
+BiomeDecorationSystem::getNoiseMolang(RenderParams&, std::vector<float, std::allocator<float> > const&)
+BiomeDecorationSystem::getIsExperimentalMolang(RenderParams&, std::vector<float, std::allocator<float> > const&)
+BiomeDecorationSystem::blockSourceMolangQueries(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)
+BiomeDecorationSystem::decorate(Biome&, LevelChunk&, BlockSource&, Random&)

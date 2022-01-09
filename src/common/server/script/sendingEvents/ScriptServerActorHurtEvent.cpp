@@ -1,0 +1,11 @@
+ScriptServerActorHurtEvent::ScriptServerActorHurtEvent()
+ScriptServerActorHurtEvent::~ScriptServerActorHurtEvent()
+ScriptServerActorHurtEvent::~ScriptServerActorHurtEvent()
+ScriptServerActorHurtEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorHurtEvent::setAttackerId(ActorUniqueID const&)
+ScriptServerActorHurtEvent::setBlockPos(BlockPos const&)
+ScriptServerActorHurtEvent::setCause(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ScriptServerActorHurtEvent::setProjectile(ActorType const&)
+ScriptServerActorHurtEvent::setDamage(int)
+ScriptServerActorHurtEvent::setAbsorbedDamage(int)
+ScriptServerActorHurtEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

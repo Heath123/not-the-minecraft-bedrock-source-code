@@ -1,0 +1,17 @@
+FallingBlock::FallingBlock(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+FallingBlock::reloadHardcoded(Actor::InitializationMethod, VariantParameterList const&)
+FallingBlock::reloadHardcodedClient(Actor::InitializationMethod, VariantParameterList const&)
+FallingBlock::_init()
+FallingBlock::isPickable()
+FallingBlock::_waitRemoval()
+FallingBlock::normalTick()
+FallingBlock::getFallingBlock() const
+FallingBlock::_isHeavyBlock(Block const&)
+FallingBlock::_breakBlock()
+FallingBlock::setFallingBlock(Block const&, bool)
+FallingBlock::addAdditionalSaveData(CompoundTag&)
+FallingBlock::readAdditionalSaveData(CompoundTag const&, DataLoadHelper&)
+FallingBlock::causeFallDamage(float)
+FallingBlock::teleportTo(Vec3 const&, bool, int, int)
+FallingBlock::_hurt(ActorDamageSource const&, int, bool, bool)
+FallingBlock::_canDropResource(Block const&, BlockSource const&) const

@@ -1,0 +1,1 @@
+BehaviorSystem::tick(EntityRegistry&)

@@ -1,0 +1,1 @@
+OpenDoorAnnotationSystem::tick(EntityRegistry&)

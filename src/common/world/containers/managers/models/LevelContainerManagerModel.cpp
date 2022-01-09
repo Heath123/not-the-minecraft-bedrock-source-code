@@ -1,0 +1,20 @@
+LevelContainerManagerModel::LevelContainerManagerModel(ContainerID, Player&, BlockPos const&, BlockActorType)
+LevelContainerManagerModel::LevelContainerManagerModel(ContainerID, Player&, ActorUniqueID)
+LevelContainerManagerModel::~LevelContainerManagerModel()
+LevelContainerManagerModel::~LevelContainerManagerModel()
+LevelContainerManagerModel::getEntityUniqueID() const
+LevelContainerManagerModel::getEntityName[abi:cxx11]() const
+LevelContainerManagerModel::setEntityUniqueID(ActorUniqueID)
+LevelContainerManagerModel::getBlockPos() const
+LevelContainerManagerModel::setBlockPos(BlockPos const&)
+LevelContainerManagerModel::init()
+LevelContainerManagerModel::_getBlockEntity()
+LevelContainerManagerModel::getItems()
+LevelContainerManagerModel::setSlot(int, ContainerItemStack const&, bool)
+LevelContainerManagerModel::getSlot(int)
+LevelContainerManagerModel::setData(int, int)
+LevelContainerManagerModel::broadcastChanges()
+LevelContainerManagerModel::isValid(float)
+LevelContainerManagerModel::_getEntity()
+LevelContainerManagerModel::_getContainer()
+LevelContainerManagerModel::_onBlockSlotChanged(int, ItemStack const&, ItemStack const&)

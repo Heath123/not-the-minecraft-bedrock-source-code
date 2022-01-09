@@ -1,0 +1,1 @@
+LootItemCondition::deserialize(Json::Value)

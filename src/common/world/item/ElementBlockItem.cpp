@@ -1,0 +1,1 @@
+ElementBlockItem::fixupOnLoad(ItemStackBase&) const

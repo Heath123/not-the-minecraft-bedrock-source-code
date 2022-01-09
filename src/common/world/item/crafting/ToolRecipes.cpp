@@ -1,0 +1,1 @@
+ToolRecipes::addRecipes(Recipes&)

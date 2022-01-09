@@ -1,0 +1,4 @@
+OverloadSyntaxInformation::OverloadSyntaxInformation(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, unsigned int)
+CommandSyntaxInformation::CommandSyntaxInformation()
+CommandSyntaxInformation::CommandSyntaxInformation(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<OverloadSyntaxInformation, std::allocator<OverloadSyntaxInformation> >&&)
+AutoCompleteOption::AutoCompleteOption(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, unsigned int, unsigned int, unsigned int)

@@ -1,0 +1,6 @@
+leveldb::Iterator::Iterator()
+leveldb::Iterator::~Iterator()
+leveldb::Iterator::~Iterator()
+leveldb::Iterator::RegisterCleanup(void (*)(void*, void*), void*, void*)
+leveldb::NewEmptyIterator()
+leveldb::NewErrorIterator(leveldb::Status const&)

@@ -1,0 +1,1 @@
+InteractSystem::tick(EntityRegistry&)

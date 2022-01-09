@@ -1,0 +1,4 @@
+void BiomeComponentLoading::_buildSchema<WorldGenClimateMappingAttributes>(JsonUtil::JsonSchemaObjectNode<JsonUtil::JsonParseState<JsonUtil::EmptyClass, std::pair<std::reference_wrapper<Biome>, std::reference_wrapper<IWorldRegistriesProvider> > >, std::pair<std::reference_wrapper<Biome>, std::reference_wrapper<IWorldRegistriesProvider> > >&, std::function<WorldGenClimateMappingAttributes& (std::pair<std::reference_wrapper<Biome>, std::reference_wrapper<IWorldRegistriesProvider> >*)>)
+bool BiomeComponentLoading::_shouldStripComponent<WorldGenClimateMappingAttributes>(WorldGenClimateMappingAttributes const&)
+void BiomeComponentLoading::_write<WorldGenClimateMappingAttributes>(CompoundTag&, WorldGenClimateMappingAttributes const&)
+void BiomeComponentLoading::_read<WorldGenClimateMappingAttributes>(CompoundTag const&, WorldGenClimateMappingAttributes&, IWorldRegistriesProvider&)

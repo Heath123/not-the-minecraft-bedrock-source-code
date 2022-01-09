@@ -1,0 +1,1 @@
+InsomniaSystem::tick(EntityRegistry&)

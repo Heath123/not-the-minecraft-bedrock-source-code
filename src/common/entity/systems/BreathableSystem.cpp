@@ -1,0 +1,1 @@
+BreathableSystem::tick(EntityRegistry&)

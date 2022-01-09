@@ -1,0 +1,5 @@
+CommandFunctionEntry::CommandFunctionEntry()
+CommandFunctionEntry::CommandFunctionEntry(std::unique_ptr<Command, std::default_delete<Command> >)
+CommandFunctionEntry::~CommandFunctionEntry()
+CommandFunctionEntry::~CommandFunctionEntry()
+CommandFunctionEntry::execute(FunctionManager&, CommandOrigin const&)

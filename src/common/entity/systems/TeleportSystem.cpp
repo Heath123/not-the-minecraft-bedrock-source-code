@@ -1,0 +1,1 @@
+TeleportSystem::tick(EntityRegistry&)

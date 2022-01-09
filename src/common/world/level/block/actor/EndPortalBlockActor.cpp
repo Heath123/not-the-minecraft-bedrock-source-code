@@ -1,0 +1,1 @@
+EndPortalBlockActor::EndPortalBlockActor(BlockPos const&)

@@ -1,0 +1,7 @@
+ScopedAutoreleasePool::ScopedAutoreleasePool()
+ScopedAutoreleasePool::_create()
+ScopedAutoreleasePool::~ScopedAutoreleasePool()
+ScopedAutoreleasePool::_drain()
+ScopedAutoreleasePool::drain()
+ScopedAutoreleasePool::drainNow()
+ScopedAutoreleasePool::reset()

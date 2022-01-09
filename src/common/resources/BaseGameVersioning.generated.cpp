@@ -1,0 +1,2 @@
+BaseGameVersioning::getAvailableResourcePackBaseGameVersions()
+BaseGameVersioning::getAvailableBehaviorPackBaseGameVersions()

@@ -1,0 +1,5 @@
+ActorComponent::ActorComponent(ActorComponent&&)
+ActorComponent::~ActorComponent()
+ActorComponent::operator=(ActorComponent&&)
+ActorComponent::initialize(Actor&)
+ActorComponent::getActor()

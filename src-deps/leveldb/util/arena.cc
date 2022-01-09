@@ -1,0 +1,5 @@
+leveldb::Arena::Arena()
+leveldb::Arena::~Arena()
+leveldb::Arena::AllocateFallback(unsigned long)
+leveldb::Arena::AllocateNewBlock(unsigned long)
+leveldb::Arena::AllocateAligned(unsigned long)

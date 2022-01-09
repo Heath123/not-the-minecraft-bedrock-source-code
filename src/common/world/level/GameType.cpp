@@ -1,0 +1,5 @@
+GameTypeConv::gameTypeToString[abi:cxx11](GameType)
+GameTypeConv::gameTypeToNonLocString[abi:cxx11](GameType)
+GameTypeConv::stringToGameType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+GameTypeConv::stringToIndividualGameType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+GameTypeConv::intToGameType(int)

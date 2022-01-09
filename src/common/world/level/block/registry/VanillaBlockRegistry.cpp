@@ -1,0 +1,2 @@
+VanillaBlocks::assignBlocks()
+VanillaBlocks::unassignBlocks()

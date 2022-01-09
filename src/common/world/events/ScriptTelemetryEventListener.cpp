@@ -1,0 +1,5 @@
+ScriptTelemetryEventListener::ScriptTelemetryEventListener(IMinecraftEventing&, bool)
+ScriptTelemetryEventListener::~ScriptTelemetryEventListener()
+ScriptTelemetryEventListener::~ScriptTelemetryEventListener()
+ScriptTelemetryEventListener::onScriptLoaded(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long)
+ScriptTelemetryEventListener::onScriptRan(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)

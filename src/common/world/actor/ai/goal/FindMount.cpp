@@ -1,0 +1,11 @@
+FindMountGoal::FindMountGoal(Mob&, float, int, bool, bool, float, int)
+FindMountGoal::~FindMountGoal()
+FindMountGoal::~FindMountGoal()
+FindMountGoal::canUse()
+FindMountGoal::canContinueToUse()
+FindMountGoal::start()
+FindMountGoal::isInMountRange()
+FindMountGoal::stop()
+FindMountGoal::tick()
+FindMountGoal::getAttackReachSqr()
+FindMountGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const

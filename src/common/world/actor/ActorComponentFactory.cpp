@@ -1,0 +1,1 @@
+ActorComponentFactory::_initialize()

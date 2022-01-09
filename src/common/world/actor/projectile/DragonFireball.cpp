@@ -1,0 +1,5 @@
+DragonFireball::DragonFireball(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+DragonFireball::isPickable()
+DragonFireball::getTrailParticle()
+DragonFireball::shouldBurn()
+DragonFireball::_hurt(ActorDamageSource const&, int, bool, bool)

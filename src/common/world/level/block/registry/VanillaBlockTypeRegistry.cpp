@@ -1,0 +1,5 @@
+VanillaBlockConversion::getBlockTypeFromLegacyId(unsigned int)
+VanillaBlockConversion::getBlockTypeLegacyIdFromName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+VanillaBlockConversion::tryGetLegacyState(unsigned int, unsigned int)
+VanillaBlockTypes::unregisterBlocks()
+VanillaBlockTypes::registerBlocks()

@@ -1,0 +1,1 @@
+DanceSystem::tick(EntityRegistry&)

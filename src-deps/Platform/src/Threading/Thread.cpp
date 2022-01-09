@@ -1,0 +1,6 @@
+Bedrock::Threading::ON_MAIN_THREAD()
+Bedrock::Threading::IS_MAIN_THREAD(std::thread::id const&)
+Bedrock::Threading::ON_SERVER_THREAD()
+Bedrock::Threading::ASSIGN_MAIN_THREAD(std::thread::id const&)
+Bedrock::Threading::ASSIGN_SERVER_THREAD(std::thread::id const&)
+Bedrock::Threading::GET_MAIN_THREAD_ID()

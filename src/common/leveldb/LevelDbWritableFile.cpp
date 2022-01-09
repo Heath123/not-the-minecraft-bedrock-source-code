@@ -1,0 +1,6 @@
+LevelDbWritableFile::LevelDbWritableFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Core::File&&)
+LevelDbWritableFile::Append(leveldb::Slice const&)
+LevelDbWritableFile::Close()
+LevelDbWritableFile::Flush()
+LevelDbWritableFile::SyncDirIfManifest()
+LevelDbWritableFile::Sync()

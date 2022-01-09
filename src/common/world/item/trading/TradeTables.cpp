@@ -1,0 +1,8 @@
+TradeTables::reload(Level&)
+TradeTables::_parseAndStoreTradeTable(ResourcePackManager*, Core::Path const&)
+TradeTables::fetchTable(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+parseAllTradeJson(std::vector<TradeTier, std::allocator<TradeTier> >&, Json::Value&)
+parseTradeChoicesJson(std::vector<TradeItem, std::allocator<TradeItem> >&, Json::Value&, int)
+parseTradeGroupJson(TradeGroup&, Json::Value&)
+TradeTable::getTradeTierFromExp(unsigned int)
+TradeTable::getExpRequiredForTier(int)

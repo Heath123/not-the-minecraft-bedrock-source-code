@@ -1,0 +1,1 @@
+AngrySystem::tick(EntityRegistry&)

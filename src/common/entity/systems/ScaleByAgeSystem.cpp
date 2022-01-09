@@ -1,0 +1,1 @@
+ScaleByAgeSystem::tick(EntityRegistry&)

@@ -1,0 +1,13 @@
+DropperBlockActor::DropperBlockActor(BlockPos)
+DropperBlockActor::DropperBlockActor(BlockPos, BlockActorType)
+DropperBlockActor::getUpdatePacket(BlockSource&)
+DropperBlockActor::_onUpdatePacket(CompoundTag const&, BlockSource&)
+DropperBlockActor::getName[abi:cxx11]() const
+DropperBlockActor::pushOutItems(BlockSource&)
+DropperBlockActor::getAttachedContainer(BlockSource&)
+DropperBlockActor::_tryPushToComposter(BlockSource&, int)
+DropperBlockActor::_addItem(BlockSource&, Container&, ItemStack&, int)
+DropperBlockActor::_getContainerAt(BlockSource&, Vec3 const&)
+DropperBlockActor::_isFullContainer(BlockSource&, Container&, int)
+DropperBlockActor::_tryMoveInItem(BlockSource&, Container&, ItemStack&, int, int)
+DropperBlockActor::_canPlaceItemInContainer(BlockSource&, Container&, ItemStack&, int, int)

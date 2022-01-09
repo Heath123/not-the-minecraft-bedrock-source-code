@@ -1,0 +1,6 @@
+RakNet::SignaledEvent::SignaledEvent()
+RakNet::SignaledEvent::~SignaledEvent()
+RakNet::SignaledEvent::InitEvent()
+RakNet::SignaledEvent::CloseEvent()
+RakNet::SignaledEvent::SetEvent()
+RakNet::SignaledEvent::WaitOnEvent(int)

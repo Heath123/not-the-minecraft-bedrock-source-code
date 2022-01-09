@@ -1,0 +1,5 @@
+InMemorySequentialFile::InMemorySequentialFile(std::shared_ptr<InMemoryFile>)
+InMemorySequentialFile::~InMemorySequentialFile()
+InMemorySequentialFile::~InMemorySequentialFile()
+InMemorySequentialFile::Read(unsigned long, leveldb::Slice*, char*)
+InMemorySequentialFile::Skip(unsigned long)

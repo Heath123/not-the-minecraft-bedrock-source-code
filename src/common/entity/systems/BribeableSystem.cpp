@@ -1,0 +1,1 @@
+BribeableSystem::tick(EntityRegistry&)

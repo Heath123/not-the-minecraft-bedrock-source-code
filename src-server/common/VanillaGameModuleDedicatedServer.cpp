@@ -1,0 +1,2 @@
+VanillaGameModuleDedicatedServer::createGameModuleServer()
+VanillaGameModuleDedicatedServer::createInPackagePacks()

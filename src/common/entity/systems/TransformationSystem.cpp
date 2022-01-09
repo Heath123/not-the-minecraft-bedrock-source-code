@@ -1,0 +1,1 @@
+TransformationSystem::tick(EntityRegistry&)

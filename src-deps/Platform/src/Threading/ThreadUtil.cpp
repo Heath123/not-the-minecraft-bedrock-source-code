@@ -1,0 +1,6 @@
+Bedrock::Threading::ThreadUtil::setCurrentThreadPriority(Bedrock::Threading::OSThreadPriority const&)
+Bedrock::Threading::ThreadUtil::setThreadPriority(void const*, Bedrock::Threading::OSThreadPriority const&)
+Bedrock::Threading::ThreadUtil::setThreadPriority(unsigned long const&, Bedrock::Threading::OSThreadPriority const&)
+Bedrock::Threading::ThreadUtil::setCurrentThreadCoreAffinity(int, unsigned long)
+Bedrock::Threading::ThreadUtil::setCoreAffinity(void const*, int, unsigned long)
+Bedrock::Threading::ThreadUtil::setCoreAffinity(unsigned long const&, int, unsigned long)

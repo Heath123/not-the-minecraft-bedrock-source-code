@@ -1,0 +1,6 @@
+PackManifestFactory::contentKeyLookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+PackManifestFactory::alternateContentKeyLookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+PackManifestFactory::appendKeys(std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&)
+PackManifestFactory::PackManifestFactory(IPackTelemetry&)
+getManifestOrigin(PackAccessStrategy const&)
+PackManifestFactory::create(PackAccessStrategy&, ResourceLocation const&, PackReport&, SubpackInfoCollection*)

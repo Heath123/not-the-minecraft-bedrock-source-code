@@ -1,0 +1,5 @@
+LookControl::LookControl()
+LookControl::~LookControl()
+LookControl::~LookControl()
+LookControl::initializeInternal(Mob&)
+LookControl::tick(Mob&)

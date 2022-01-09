@@ -1,0 +1,7 @@
+ScriptServerBlockDestructionStoppedEvent::ScriptServerBlockDestructionStoppedEvent()
+ScriptServerBlockDestructionStoppedEvent::~ScriptServerBlockDestructionStoppedEvent()
+ScriptServerBlockDestructionStoppedEvent::~ScriptServerBlockDestructionStoppedEvent()
+ScriptServerBlockDestructionStoppedEvent::setActorId(ActorUniqueID const&)
+ScriptServerBlockDestructionStoppedEvent::setBlockPos(BlockPos const&)
+ScriptServerBlockDestructionStoppedEvent::setProgress(float)
+ScriptServerBlockDestructionStoppedEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

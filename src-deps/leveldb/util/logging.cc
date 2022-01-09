@@ -1,0 +1,5 @@
+leveldb::AppendNumberTo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, unsigned long)
+leveldb::AppendEscapedStringTo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, leveldb::Slice const&)
+leveldb::NumberToString[abi:cxx11](unsigned long)
+leveldb::EscapeString[abi:cxx11](leveldb::Slice const&)
+leveldb::ConsumeDecimalNumber(leveldb::Slice*, unsigned long*)

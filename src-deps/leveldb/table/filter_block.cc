@@ -1,0 +1,7 @@
+leveldb::FilterBlockBuilder::FilterBlockBuilder(leveldb::FilterPolicy const*)
+leveldb::FilterBlockBuilder::StartBlock(unsigned long)
+leveldb::FilterBlockBuilder::GenerateFilter()
+leveldb::FilterBlockBuilder::AddKey(leveldb::Slice const&)
+leveldb::FilterBlockBuilder::Finish()
+leveldb::FilterBlockReader::FilterBlockReader(leveldb::FilterPolicy const*, leveldb::Slice const&)
+leveldb::FilterBlockReader::KeyMayMatch(unsigned long, leveldb::Slice const&)

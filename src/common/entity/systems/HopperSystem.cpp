@@ -1,0 +1,1 @@
+HopperSystem::tick(EntityRegistry&)

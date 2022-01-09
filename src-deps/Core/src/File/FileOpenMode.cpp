@@ -1,0 +1,5 @@
+Core::FileOpenMode::FileOpenMode(std::_Ios_Openmode)
+Core::FileOpenMode::FileOpenMode(char const*)
+Core::FileOpenMode::cMode()
+Core::FileOpenMode::cModeWide()
+std::to_string[abi:cxx11](Core::FileOpenMode const&)

@@ -1,0 +1,10 @@
+StompAttackGoal::StompAttackGoal(Mob&, float, bool, float, ActorCategory, int, float, bool, int, bool)
+StompAttackGoal::~StompAttackGoal()
+StompAttackGoal::~StompAttackGoal()
+StompAttackGoal::canUse()
+StompAttackGoal::canContinueToUse()
+StompAttackGoal::start()
+StompAttackGoal::stop()
+StompAttackGoal::tick()
+StompAttackGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const
+StompAttackGoal::_attemptAttackTarget(Actor*)

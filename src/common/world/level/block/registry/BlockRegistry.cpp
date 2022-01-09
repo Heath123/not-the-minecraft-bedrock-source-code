@@ -1,0 +1,2 @@
+BedrockBlocks::assignBlocks()
+BedrockBlocks::unassignBlocks()

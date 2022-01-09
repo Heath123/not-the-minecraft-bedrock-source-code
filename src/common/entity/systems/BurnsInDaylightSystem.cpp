@@ -1,0 +1,1 @@
+BurnsInDaylightSystem::tick(EntityRegistry&)

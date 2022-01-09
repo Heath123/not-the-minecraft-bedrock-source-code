@@ -1,0 +1,1 @@
+MountTamingSystem::tick(EntityRegistry&)

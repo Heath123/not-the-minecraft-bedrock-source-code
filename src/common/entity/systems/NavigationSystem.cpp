@@ -1,0 +1,1 @@
+NavigationSystem::tick(EntityRegistry&)

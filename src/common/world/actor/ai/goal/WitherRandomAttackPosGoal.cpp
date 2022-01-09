@@ -1,0 +1,5 @@
+WitherRandomAttackPosGoal::WitherRandomAttackPosGoal(Mob&, float, int, int)
+WitherRandomAttackPosGoal::canUse()
+WitherRandomAttackPosGoal::canContinueToUse()
+WitherRandomAttackPosGoal::start()
+WitherRandomAttackPosGoal::stop()

@@ -1,0 +1,1 @@
+BossSystem::tick(EntityRegistry&)

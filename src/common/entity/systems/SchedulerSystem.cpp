@@ -1,0 +1,1 @@
+SchedulerSystem::tick(EntityRegistry&)

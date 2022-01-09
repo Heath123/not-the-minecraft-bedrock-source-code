@@ -1,0 +1,10 @@
+LookAtActorGoal::LookAtActorGoal(Mob&, float, float, int, int, int, int)
+LookAtActorGoal::~LookAtActorGoal()
+LookAtActorGoal::~LookAtActorGoal()
+LookAtActorGoal::canUse()
+LookAtActorGoal::_withinFieldOfView(Actor&)
+LookAtActorGoal::canContinueToUse()
+LookAtActorGoal::start()
+LookAtActorGoal::stop()
+LookAtActorGoal::tick()
+LookAtActorGoal::appendDebugInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const

@@ -1,0 +1,10 @@
+WeakStorageFeature::WeakStorageFeature(WeakStorageFeature::EmptyInit)
+WeakStorageFeature::WeakStorageFeature(OwnerStorageFeature const&)
+WeakStorageFeature::WeakStorageFeature(StackResultStorageFeature const&)
+WeakStorageFeature::WeakStorageFeature(WeakStorageFeature::VariadicInit, FeatureRegistry&, unsigned long)
+WeakStorageFeature::WeakStorageFeature(WeakStorageFeature&&)
+WeakStorageFeature::_reset()
+WeakStorageFeature::_isSet() const
+WeakStorageFeature::operator=(WeakStorageFeature&&)
+WeakStorageFeature::operator=(OwnerStorageFeature const&)
+WeakStorageFeature::operator=(StackResultStorageFeature const&)

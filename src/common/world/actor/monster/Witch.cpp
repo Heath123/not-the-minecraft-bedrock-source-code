@@ -1,0 +1,10 @@
+Witch::_onSizeUpdated()
+Witch::Witch(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Witch::updateEntitySpecificMolangVariables(RenderParams&)
+Witch::setUsingItem(bool)
+Witch::isUsingItem()
+Witch::aiStep()
+Witch::handleEntityEvent(ActorEvent, int)
+Witch::getDamageAfterMagicAbsorb(ActorDamageSource const&, int)
+Witch::performRangedAttack(Actor&, float)
+Witch::canAttack(Actor*, bool) const

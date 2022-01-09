@@ -1,0 +1,6 @@
+SetLocalPlayerAsInitializedPacket::SetLocalPlayerAsInitializedPacket()
+SetLocalPlayerAsInitializedPacket::SetLocalPlayerAsInitializedPacket(ActorRuntimeID)
+SetLocalPlayerAsInitializedPacket::read(ReadOnlyBinaryStream&)
+SetLocalPlayerAsInitializedPacket::getId() const
+SetLocalPlayerAsInitializedPacket::getName[abi:cxx11]() const
+SetLocalPlayerAsInitializedPacket::write(BinaryStream&) const

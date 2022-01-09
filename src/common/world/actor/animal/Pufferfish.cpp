@@ -1,0 +1,6 @@
+Pufferfish::Pufferfish(ActorDefinitionGroup*, ActorDefinitionIdentifier const&)
+Pufferfish::normalTick()
+Pufferfish::_onSizeUpdated()
+Pufferfish::_hurt(ActorDamageSource const&, int, bool, bool)
+Pufferfish::playerTouch(Player&)
+Pufferfish::updateEntitySpecificMolangVariables(RenderParams&)

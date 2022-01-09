@@ -1,0 +1,1 @@
+CommandBlockSystem::tick(EntityRegistry&)

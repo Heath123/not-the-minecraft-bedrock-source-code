@@ -1,0 +1,1 @@
+BoostableSystem::tick(EntityRegistry&)

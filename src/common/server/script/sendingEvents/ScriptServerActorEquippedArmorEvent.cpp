@@ -1,0 +1,7 @@
+ScriptServerActorEquippedArmorEvent::ScriptServerActorEquippedArmorEvent()
+ScriptServerActorEquippedArmorEvent::~ScriptServerActorEquippedArmorEvent()
+ScriptServerActorEquippedArmorEvent::~ScriptServerActorEquippedArmorEvent()
+ScriptServerActorEquippedArmorEvent::setActorId(ActorUniqueID const&)
+ScriptServerActorEquippedArmorEvent::setItemStack(ItemInstance const&)
+ScriptServerActorEquippedArmorEvent::setSlot(ArmorSlot)
+ScriptServerActorEquippedArmorEvent::_serialize(ScriptEngine&, ScriptApi::ScriptObjectHandle&) const

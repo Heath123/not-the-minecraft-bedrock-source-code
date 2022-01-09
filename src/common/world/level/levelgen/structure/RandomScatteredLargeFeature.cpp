@@ -1,0 +1,8 @@
+ScatteredFeatureStart::ScatteredFeatureStart()
+ScatteredFeatureStart::ScatteredFeatureStart(int, int)
+ScatteredFeatureStart::ScatteredFeatureStart(BiomeSource&, int, int)
+RandomScatteredLargeFeature::RandomScatteredLargeFeature(unsigned int)
+RandomScatteredLargeFeature::getNearestGeneratedFeature(Dimension&, BiomeSource&, BlockPos const&, BlockPos&)
+RandomScatteredLargeFeature::initMobSpawnTypes(HardcodedSpawnAreaRegistry&)
+RandomScatteredLargeFeature::isFeatureChunk(BiomeSource const&, Random&, ChunkPos const&, unsigned int)
+RandomScatteredLargeFeature::createStructureStart(Dimension&, BiomeSource&, Random&, ChunkPos const&)

@@ -1,0 +1,8 @@
+FurnaceFuelContainerController::FurnaceFuelContainerController(std::shared_ptr<ContainerModel>)
+FurnaceFuelContainerController::~FurnaceFuelContainerController()
+FurnaceFuelContainerController::~FurnaceFuelContainerController()
+FurnaceFuelContainerController::isItemAllowed(ItemInstance const&) const
+FurnaceFuelContainerController::isFurnaceFuelItem(ItemInstance const&)
+FurnaceFuelContainerController::isBucket(ItemDescriptor const&)
+FurnaceFuelContainerController::_getAvailableSetCount(int, ContainerItemStack const&) const
+FurnaceFuelContainerController::_getAvailableAddCount(int) const

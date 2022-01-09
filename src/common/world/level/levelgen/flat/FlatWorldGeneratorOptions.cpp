@@ -1,0 +1,7 @@
+FlatWorldGeneratorOptions::getDefault()
+_parseLayersV3(Json::Value const&, BlockPalette const&)
+_loadLayerBlock(Json::Value const&, BlockPalette const&)
+_parseLayersV4(Json::Value const&, BlockPalette const&)
+_parseLayersV5(Json::Value const&, BlockPalette const&)
+FlatWorldGeneratorOptions::_load(Json::Value const&, BlockPalette const&)
+FlatWorldGeneratorOptions::FlatWorldGeneratorOptions(Json::Value const&, BlockPalette const&)

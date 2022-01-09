@@ -1,0 +1,2 @@
+MinecraftScheduler::client()
+MinecraftScheduler::destroyClientSingleton()

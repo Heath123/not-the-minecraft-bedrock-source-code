@@ -1,0 +1,8 @@
+MaterialReducerInputContainerController::MaterialReducerInputContainerController(std::shared_ptr<ContainerModel>)
+MaterialReducerInputContainerController::~MaterialReducerInputContainerController()
+MaterialReducerInputContainerController::~MaterialReducerInputContainerController()
+MaterialReducerInputContainerController::isItemAllowed(ItemInstance const&) const
+MaterialReducerInputContainerController::_canSet(int, ContainerItemStack const&, ItemTransferAmount) const
+MaterialReducerInputContainerController::_getAvailableAddCount(int) const
+MaterialReducerInputContainerController::_getAvailableSetCount(int, ContainerItemStack const&) const
+MaterialReducerInputContainerController::setEnabled(bool)

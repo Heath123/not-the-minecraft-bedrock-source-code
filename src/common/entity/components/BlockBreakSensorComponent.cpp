@@ -1,0 +1,5 @@
+BlockBreakSensorDefinition::buildSchema(std::shared_ptr<JsonUtil::JsonSchemaObjectNode<JsonUtil::EmptyClass, BlockBreakSensorDefinition> >&)
+BlockBreakSensorDefinition::initialize(EntityContext&, BlockBreakSensorComponent&)
+BlockBreakSensorComponent::initialize(Actor&)
+BlockBreakSensorComponent::updateSensorPos(Vec3 const&)
+BlockBreakSensorComponent::updateRadius(float)

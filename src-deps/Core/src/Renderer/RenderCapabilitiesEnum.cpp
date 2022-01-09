@@ -1,0 +1,2 @@
+GetRenderCapabilitiesConversion()
+GetRenderCapabilitiesConversionToString()

@@ -1,0 +1,5 @@
+google_breakpad::UTF8ToUTF16(char const*, std::vector<unsigned short, std::allocator<unsigned short> >*)
+google_breakpad::UTF8ToUTF16Char(char const*, int, unsigned short*)
+google_breakpad::UTF32ToUTF16(wchar_t const*, std::vector<unsigned short, std::allocator<unsigned short> >*)
+google_breakpad::UTF32ToUTF16Char(wchar_t, unsigned short*)
+google_breakpad::UTF16ToUTF8[abi:cxx11](std::vector<unsigned short, std::allocator<unsigned short> > const&, bool)

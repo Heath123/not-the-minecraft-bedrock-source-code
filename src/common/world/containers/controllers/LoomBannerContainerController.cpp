@@ -1,0 +1,4 @@
+LoomBannerContainerController::LoomBannerContainerController(std::shared_ptr<ContainerModel>)
+LoomBannerContainerController::~LoomBannerContainerController()
+LoomBannerContainerController::~LoomBannerContainerController()
+LoomBannerContainerController::isItemAllowed(ItemInstance const&) const

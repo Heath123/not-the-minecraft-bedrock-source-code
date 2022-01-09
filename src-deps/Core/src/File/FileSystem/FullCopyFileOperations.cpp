@@ -1,0 +1,5 @@
+Core::FullCopyFileOperations::copyFile(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::FullCopyFileOperations::copyDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::FullCopyFileOperations::moveFile(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::FullCopyFileOperations::moveDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)
+Core::FullCopyFileOperations::moveFileOrDirectory(Core::FileSystemImpl*, Core::Path const&, Core::FileSystemImpl*, Core::Path const&)

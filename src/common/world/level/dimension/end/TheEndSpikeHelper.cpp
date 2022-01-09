@@ -1,0 +1,1 @@
+TheEndSpikeHelper::getSpikesForLevel(Level&)

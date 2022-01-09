@@ -1,0 +1,14 @@
+utf8proc_version
+utf8proc_errmsg
+utf8proc_iterate
+utf8proc_codepoint_valid
+utf8proc_encode_char
+utf8proc_get_property
+utf8proc_decompose_char
+utf8proc_decompose
+utf8proc_reencode
+utf8proc_map
+utf8proc_NFD
+utf8proc_NFC
+utf8proc_NFKD
+utf8proc_NFKC

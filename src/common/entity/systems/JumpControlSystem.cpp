@@ -1,0 +1,1 @@
+JumpControlSystem::tick(EntityRegistry&)

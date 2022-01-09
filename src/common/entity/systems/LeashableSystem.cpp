@@ -1,0 +1,1 @@
+LeashableSystem::tick(EntityRegistry&)

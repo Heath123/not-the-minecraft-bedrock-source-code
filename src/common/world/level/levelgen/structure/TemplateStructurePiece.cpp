@@ -1,0 +1,5 @@
+TemplateStructurePiece::TemplateStructurePiece(int)
+TemplateStructurePiece::_setup(LegacyStructureTemplate&, LegacyStructureSettings const&, BlockPos const&)
+TemplateStructurePiece::_setBoundingBoxFromTemplate()
+TemplateStructurePiece::postProcess(BlockSource*, Random&, BoundingBox const&)
+TemplateStructurePiece::moveBoundingBox(int, int, int)

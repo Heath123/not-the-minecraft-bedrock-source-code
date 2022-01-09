@@ -1,0 +1,4 @@
+CartographyInputContainerController::CartographyInputContainerController(std::shared_ptr<ContainerModel>)
+CartographyInputContainerController::~CartographyInputContainerController()
+CartographyInputContainerController::~CartographyInputContainerController()
+CartographyInputContainerController::isItemAllowed(ItemInstance const&) const

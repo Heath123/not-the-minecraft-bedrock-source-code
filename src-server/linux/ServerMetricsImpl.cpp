@@ -1,0 +1,11 @@
+ServerMetricsImpl::ServerMetricsImpl(ServerCommunicationInterface*)
+ServerMetricsImpl::~ServerMetricsImpl()
+ServerMetricsImpl::~ServerMetricsImpl()
+ServerMetricsImpl::sendPeriodicMetrics(ServerInstance&)
+ServerMetricsImpl::sendPeriodicMetricsInternal(ServerInstance&)
+ServerMetricsImpl::addMetrics(std::unique_ptr<com::mojang::clacks::protocol::MetricReport, std::default_delete<com::mojang::clacks::protocol::MetricReport> >)
+ServerMetricsImpl::sendLatencyTimepoints(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ServerMetricsImpl::sendServerTickTime(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ServerMetricsImpl::isEnabledMetricQueuing() const
+ServerMetricsImpl::popMetric()
+ServerMetricsImpl::setEnableMetricQueuing(bool)

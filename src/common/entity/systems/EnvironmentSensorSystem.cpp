@@ -1,0 +1,1 @@
+EnvironmentSensorSystem::tick(EntityRegistry&)

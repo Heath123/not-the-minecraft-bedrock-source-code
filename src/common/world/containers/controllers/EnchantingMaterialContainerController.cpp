@@ -1,0 +1,6 @@
+isLapis(ItemDescriptor const&)
+EnchantingMaterialContainerController::EnchantingMaterialContainerController(std::shared_ptr<ContainerModel>)
+EnchantingMaterialContainerController::~EnchantingMaterialContainerController()
+EnchantingMaterialContainerController::~EnchantingMaterialContainerController()
+EnchantingMaterialContainerController::isItemAllowed(ItemInstance const&) const
+EnchantingMaterialContainerController::isEnchantMaterialItem(ItemDescriptor const&)

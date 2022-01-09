@@ -1,0 +1,27 @@
+StructurePiece::isInChunk(ChunkPos const&) const
+StructurePiece::isCloseToChunk(ChunkPos const&, int) const
+StructurePiece::findCollisionPiece(std::vector<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> >, std::allocator<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> > > > const&, BoundingBox const&)
+StructurePiece::getLocatorPosition() const
+StructurePiece::postProcessMobsAt(BlockSource*, Random&, BoundingBox const&)
+StructurePiece::addChildren(StructurePiece*, std::vector<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> >, std::allocator<std::unique_ptr<StructurePiece, std::default_delete<StructurePiece> > > >&, Random&)
+StructurePiece::edgesLiquid(BlockSource*, BoundingBox const&)
+StructurePiece::getWorldX(int, int)
+StructurePiece::getWorldY(int)
+StructurePiece::getWorldZ(int, int)
+StructurePiece::getOrientationData(Block const*, unsigned short)
+StructurePiece::placeBlock(BlockSource*, Block const&, int, int, int, BoundingBox const&)
+StructurePiece::_getWorldPos(int, int, int)
+StructurePiece::isAir(BlockSource*, int, int, int, BoundingBox const&)
+StructurePiece::getBlock(BlockSource*, int, int, int, BoundingBox const&)
+StructurePiece::generateAirBox(BlockSource*, BoundingBox const&, int, int, int, int, int, int)
+StructurePiece::generateBox(BlockSource*, BoundingBox const&, int, int, int, int, int, int, Block const&, Block const&, bool)
+StructurePiece::generateBox(BlockSource*, BoundingBox const&, BoundingBox const&, Block const&, Block const&, bool)
+StructurePiece::generateBox(BlockSource*, BoundingBox const&, int, int, int, int, int, int, bool, Random&, BlockSelector const&)
+StructurePiece::generateBox(BlockSource*, BoundingBox const&, BoundingBox const&, bool, Random&, BlockSelector const&)
+StructurePiece::isAboveGround(int, int, int, BlockSource*)
+StructurePiece::generateMaybeBox(BlockSource*, BoundingBox const&, Random&, float, int, int, int, int, int, int, Block const&, Block const&, bool, bool)
+StructurePiece::maybeGenerateBlock(BlockSource*, BoundingBox const&, Random&, float, int, int, int, Block const&)
+StructurePiece::generateUpperHalfSphere(BlockSource*, BoundingBox const&, int, int, int, int, int, int, Block const&, bool)
+StructurePiece::generateAirColumnUp(BlockSource*, int, int, int, BoundingBox const&)
+StructurePiece::getTotalWeight(std::vector<PieceWeight, std::allocator<PieceWeight> > const&)
+StructurePiece::addHardcodedSpawnAreas(LevelChunk&) const

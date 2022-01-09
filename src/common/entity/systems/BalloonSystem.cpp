@@ -1,0 +1,1 @@
+BalloonSystem::tick(EntityRegistry&)

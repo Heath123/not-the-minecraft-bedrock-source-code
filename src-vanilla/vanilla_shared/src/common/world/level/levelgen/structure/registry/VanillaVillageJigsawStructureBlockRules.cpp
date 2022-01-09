@@ -1,0 +1,1 @@
+VanillaVillageJigsawStructureBlockRules::initialize(JigsawStructureRegistry&)

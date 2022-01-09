@@ -1,0 +1,11 @@
+BehaviorTreeGroup::BehaviorTreeGroup(ResourcePackManager&, BehaviorFactory&)
+BehaviorTreeGroup::~BehaviorTreeGroup()
+BehaviorTreeGroup::tryGetDefinition(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+BehaviorTreeGroup::getDefinitionIdentifiers[abi:cxx11]() const
+BehaviorTreeGroup::addBehaviorTree(std::unique_ptr<BehaviorTreeDefinition, std::default_delete<BehaviorTreeDefinition> >)
+BehaviorTreeGroup::_addRef(BehaviorTreeDefinitionPtr&)
+BehaviorTreeGroup::_removeRef(BehaviorTreeDefinitionPtr&)
+BehaviorTreeGroup::_loadTrees()
+BehaviorTreeGroup::loadTree(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+BehaviorTreeGroup::initializeTrees()
+BehaviorTreeGroup::loadTree(Json::Value, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
